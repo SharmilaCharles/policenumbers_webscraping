@@ -1,0 +1,237 @@
+{
+  "district_name": "Tiruchirapalli City",
+  "sp": [],
+  "adsp": [],
+  "dsp": [],
+  "cop": [
+    {
+      "officer_name": "Thiru Rupesh Kumar Meena IPS",
+      "district_name": "Tiruchirapalli City",
+      "contact_number": "0431-2332566",
+      "email": "cop.tricity@tncctns.gov.in"
+    }
+  ],
+  "acop": [],
+  "jcp": [],
+  "dcp": [
+    {
+      "officer_name": "Thiru Banavath Aravind IPS",
+      "district_name": "North, Tiruchirapalli City",
+      "contact_number": "0431-2416710, 9445444005",
+      "email": "dc.lotricity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru B. Manikandan",
+      "district_name": "South , Tiruchirapalli City",
+      "contact_number": "0431-2416710, 9445444005",
+      "email": "dc.crtrtricity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru. R. Ponkarthik Kumar",
+      "district_name": "Tiruchirapalli City",
+      "contact_number": "0431-2903709, 9043004430",
+      "email": "dc.hqrstrc@tncctns.gov.in"
+    }
+  ],
+  "adc": [],
+  "acp": [
+    {
+      "officer_name": "Tr. R.Vadivel",
+      "district_name": "Cantonment",
+      "contact_number": "043-12461683, 9498100616,994083498",
+      "email": "ac.tricanttlo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tr. K.Kennedy",
+      "district_name": "K.K.Nagar",
+      "contact_number": "0431-2712288,9498119255",
+      "email": "ac.kknagartrichycity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tr. D. Sathish Kumar",
+      "district_name": "Golden Rock",
+      "contact_number": "043-12491376, 9498100617,9498157716",
+      "email": "ac.goldenrocklo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tr. S.J.Sabapathy",
+      "district_name": "Gandhimarket",
+      "contact_number": "0431-2718488, 9498100618,9003042255",
+      "email": "ac.gandhimarkettrc@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tr. V.Seetharaman",
+      "district_name": "Srirangam",
+      "contact_number": "0431-2435055, 9498100619,9498156660",
+      "email": "ac.srirangamlo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tr. D.Vijayakumar",
+      "district_name": "Thillainagar",
+      "contact_number": "0431-2465555, 9498100620,9940500159",
+      "email": "ac.thillainagartrc@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tr. Barath Srinivas",
+      "district_name": "CCB",
+      "contact_number": "0431-2414887, 9788661000",
+      "email": "ac.ccbtrc@tncctns.gov.in"
+    }
+  ],
+  "police_stations": [
+    {
+      "station_name": "Cantonment",
+      "officer_name": "Tr. D.Sivaprakasam",
+      "landline_number": "0431-2461698, 9498100626",
+      "mobile_number": "9498133155",
+      "email": "sho.cantonment@tncctns.gov.in"
+    },
+    {
+      "station_name": "Edamalaipattipudur",
+      "officer_name": "Tr.D.Sivasubramanian",
+      "landline_number": "0431-2471598, 9498100627",
+      "mobile_number": "9498156600",
+      "email": "sho.edamalaipattipudur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sessions Court",
+      "officer_name": "Tr.A.Gnanasekar",
+      "landline_number": "0431-2462208, 9498100636",
+      "mobile_number": "9498158844",
+      "email": "sho.sessionscourt@tncctns.gov.in"
+    },
+    {
+      "station_name": "Cantonment AWPS",
+      "officer_name": "Tmt.M.Ananthi Vedhavalli",
+      "landline_number": "0431-2416662, 9498100638",
+      "mobile_number": "9498158530",
+      "email": "sho.awpscantonment@tncctns.gov.in"
+    },
+    {
+      "station_name": "K.K.Nagar",
+      "officer_name": "Tr. S.Periyasamy",
+      "landline_number": "0431-2455488, 9498100629",
+      "mobile_number": "9498168597",
+      "email": "sho.kknagar@tncctns.gov.in"
+    },
+    {
+      "station_name": "Airport",
+      "officer_name": "Tr.R.Rajkumar",
+      "landline_number": "0431-2340863, 9498100624",
+      "mobile_number": "9498110302",
+      "email": "sho.triairport@tncctns.gov.in"
+    },
+    {
+      "station_name": "Golden Rock",
+      "officer_name": "Tr. R.Mahendran",
+      "landline_number": "0431-2491793, 9498100634",
+      "mobile_number": "9498162852",
+      "email": "sho.goldenrock@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ariyamangalam",
+      "officer_name": "Tr. M.Vetrivel",
+      "landline_number": "0431-2441251,9498100625",
+      "mobile_number": "9498104271",
+      "email": "sho.ariyamangalam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Golden Rock AWPS",
+      "officer_name": "Tmt. S.Karthikeyani",
+      "landline_number": "0431-2491225,9498100639",
+      "mobile_number": "8668177310",
+      "email": "sho.awpsgoldenrock@tncctns.gov.in"
+    },
+    {
+      "station_name": "Gandhimarket",
+      "officer_name": "Tr. A.Vijay",
+      "landline_number": "0431-2708426,9498100633",
+      "mobile_number": "9843417213",
+      "email": "sho.gandhimarket@tncctns.gov.in"
+    },
+    {
+      "station_name": "Palakkarai",
+      "officer_name": "Tr.M.Sivasubramanian",
+      "landline_number": "0431-2413007,9498100635",
+      "mobile_number": "9361177152",
+      "email": "sho.palakkarai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Fort AWPS",
+      "officer_name": "Tmt. T.Meerabai",
+      "landline_number": "0431-2706201,9498100641",
+      "mobile_number": "9498158758",
+      "email": "sho.awpsfort@tncctns.gov.in"
+    },
+    {
+      "station_name": "Srirangam",
+      "officer_name": "Tr. R.Surendar",
+      "landline_number": "0431-2432235,9498100637",
+      "mobile_number": "9498159376",
+      "email": "sho.srirangam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Fort",
+      "officer_name": "Tr. S.Basil Prem Anand",
+      "landline_number": "0431-2704355,9498100628",
+      "mobile_number": "9498159500",
+      "email": "sho.trifortlo@tncctns.gov.in"
+    },
+    {
+      "station_name": "Srirangam AWPS",
+      "officer_name": "Tmt.R.Rathinavalli",
+      "landline_number": "0431-2436700,9498100640",
+      "mobile_number": "9498157718",
+      "email": "sho.awpssrirangam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thillainagar",
+      "officer_name": "Tr. Kosalairaman",
+      "landline_number": "0431-2741636,9498100630",
+      "mobile_number": "9498156222",
+      "email": "sho.thillainagar@tncctns.gov.in"
+    },
+    {
+      "station_name": "Woraiyur",
+      "officer_name": "Tr.K.Balakrishnan",
+      "landline_number": "0431-2760928,9498180910",
+      "mobile_number": "9498196067",
+      "email": "sho.woraiyur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Govt. Hospital",
+      "officer_name": "Tr.R.S.Selvakumar",
+      "landline_number": "0431-2771629, 9498100632",
+      "mobile_number": "9498157530",
+      "email": "sho.trigovthospital@tncctns.gov.in"
+    },
+    {
+      "station_name": "TIW South",
+      "officer_name": "Tr. Vinoth",
+      "landline_number": null,
+      "mobile_number": "9498134046",
+      "email": "sho.tiw_south@tncctns.gov.in"
+    },
+    {
+      "station_name": "TIW North",
+      "officer_name": "Tr. P.Shanmugasundaram",
+      "landline_number": null,
+      "mobile_number": "9498156606",
+      "email": "sho.tiw_north@tncctns.gov.in"
+    },
+    {
+      "station_name": "CCB",
+      "officer_name": "Tr.K.Shanmugavel",
+      "landline_number": "0431-2414887",
+      "mobile_number": "9498104398",
+      "email": "sho.ccb_trichycity@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW",
+      "officer_name": "Tr. V.Rajaganesh",
+      "landline_number": "0431-2492211",
+      "mobile_number": "9498158111",
+      "email": "sho.pew_trichycity@tncctns.gov.in"
+    }
+  ]
+}

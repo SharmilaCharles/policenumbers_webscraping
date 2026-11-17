@@ -1,0 +1,438 @@
+{
+  "district_name": "Avadi City",
+  "sp": [],
+  "adsp": [],
+  "dsp": [],
+  "cop": [
+    {
+      "officer_name": "Thiru. Senthil Kumar., IPS",
+      "district_name": "Avadi City",
+      "contact_number": "044-26378400",
+      "email": "cop.avadicity@tncctns.gov.in"
+    }
+  ],
+  "acop": [
+    {
+      "officer_name": "Vacant",
+      "district_name": "Avadi City",
+      "contact_number": "044-26370800",
+      "email": "jc.avadicity@tncctns.gov.in"
+    }
+  ],
+  "jcp": [
+    {
+      "officer_name": "Dr. R. Sivakumar IPS",
+      "district_name": "Avadi City",
+      "contact_number": "044-26371800",
+      "email": "jc.avadicity@tncctns.gov.in"
+    }
+  ],
+  "dcp": [
+    {
+      "officer_name": "Thiru V. Vinoth Santharam",
+      "district_name": "Avadi",
+      "contact_number": "9498188777, 044-26372800",
+      "email": "dc.avadi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tmt K. Maheswari",
+      "district_name": "Redhills",
+      "contact_number": "044- 25550727",
+      "email": "dc.redhills@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Dr. G. Vanitha",
+      "district_name": "Headquarter",
+      "contact_number": "044- 25550727",
+      "email": null
+    },
+    {
+      "officer_name": "Tmt Sangu",
+      "district_name": "Traffic, Avadi City",
+      "contact_number": "9941169452",
+      "email": "dc.trafficavadi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Senthilkumar",
+      "district_name": "CCB,Avadi City",
+      "contact_number": "9443481933",
+      "email": "dc.ccbavadi@tncctns.gov.in"
+    }
+  ],
+  "adc": [
+    {
+      "officer_name": "Thiru P. Stephen",
+      "district_name": "CCB, Avadi City",
+      "contact_number": "9962451806 044-26375900",
+      "email": "adc.ccbavadi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru K.N.Sudharsan",
+      "district_name": "IS, Avadi City",
+      "contact_number": "9444400132 044-26370100",
+      "email": "adc.isavadicity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru. Arnold Easter",
+      "district_name": "CCW, Avadi City",
+      "contact_number": "9498104839 044-26373200",
+      "email": "adc.ccwavadi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru. N.Lavakumar",
+      "district_name": "CWC, Avadi City",
+      "contact_number": "9498147300",
+      "email": "adc.cwcavadi@tncctns.gov.in"
+    }
+  ],
+  "acp": [
+    {
+      "officer_name": "Thiru R.Riazuddin",
+      "district_name": "SRMC",
+      "contact_number": "9840401199, 044-23452767, 9498100123",
+      "email": "ac.srmc@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Durai .R",
+      "district_name": "Avadi",
+      "contact_number": "9840942464, 044-12452795, 9498100106",
+      "email": "ac.avadi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru  A. Ameer Ahamed",
+      "district_name": "Poonamalle",
+      "contact_number": "9498207390, 044-26272324, 9498100125",
+      "email": "ac.poonamallee@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru R.Kannan",
+      "district_name": "Pattabiram",
+      "contact_number": "9840888922, 044-26340237, 9498100127",
+      "email": "ac.pattabiram@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Govind",
+      "district_name": "CCB-1",
+      "contact_number": "9498133116",
+      "email": "ac.ambattur@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Pajany",
+      "district_name": "CCB-2",
+      "contact_number": "9498150221",
+      "email": "acp.pewavadi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru N.S Kumar",
+      "district_name": "Ambattur",
+      "contact_number": "9498100122",
+      "email": "ac.ambattur@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Vivek Kannan",
+      "district_name": "Manali",
+      "contact_number": "9498100207",
+      "email": "ac.manali@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Franklin D Ruban",
+      "district_name": "Redhills",
+      "contact_number": "9498110125",
+      "email": "ac.redhills@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Venkatesan",
+      "district_name": "Ennore",
+      "contact_number": "9498100201, 044-23452782",
+      "email": "ac.ennore@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Elangovan",
+      "district_name": "Ponneri",
+      "contact_number": "9498100315",
+      "email": "ac.ponneri@tncctns.gov.in"
+    }
+  ],
+  "police_stations": [
+    {
+      "station_name": "Ayapakkam",
+      "officer_name": "Thiru P. Madhan",
+      "landline_number": "9498129044",
+      "mobile_number": "9884336780",
+      "email": null
+    },
+    {
+      "station_name": "Tank Factory",
+      "officer_name": "Thiru. R.Ashok",
+      "landline_number": "9498127225",
+      "mobile_number": "9788058385",
+      "email": "sho.tankfactory@tncctns.gov.in"
+    },
+    {
+      "station_name": "Avadi",
+      "officer_name": "Thiru T.Chandramohan",
+      "landline_number": "9498100086",
+      "mobile_number": "9442290898",
+      "email": "sho.avadi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirumullaivoyal",
+      "officer_name": "Thiru Jaikrishnan",
+      "landline_number": "9498100097",
+      "mobile_number": "9940674040",
+      "email": "sho.thirumullaivoyal@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWSP - Avadi",
+      "officer_name": "Tmt. Jeyalakshmi",
+      "landline_number": "9498100105",
+      "mobile_number": "8608880999",
+      "email": "sho.awpsavadi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirunindravur",
+      "officer_name": "Thiru. Balaguru",
+      "landline_number": "9498100098",
+      "mobile_number": "9551604802",
+      "email": "sho.t11thiruninravur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Muthapudupet",
+      "officer_name": "Tmt. selvi",
+      "landline_number": "9498100102",
+      "mobile_number": "9597339780",
+      "email": "sho.muthapudupet@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Pattabiram",
+      "officer_name": "Tmt P.Thanammal",
+      "landline_number": "4426853200",
+      "mobile_number": "7338776678",
+      "email": "sho.awpspattabiram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pattabiram",
+      "officer_name": "Thiru N.Sivakumar",
+      "landline_number": "9498100092",
+      "mobile_number": "9498128655",
+      "email": "sho.pattabiram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Nazarethpet",
+      "officer_name": "Thiru. K Shanmuga sundaram",
+      "landline_number": "9498100096",
+      "mobile_number": "9840947613",
+      "email": "sho.nasaratpetps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sevvapet",
+      "officer_name": "Thiru S. Vijayakumar",
+      "landline_number": "9498100320",
+      "mobile_number": "9498133379",
+      "email": "sho.sevvapet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Poonamallee",
+      "officer_name": "Thiru Gunasekaran",
+      "landline_number": "9498100084",
+      "mobile_number": "8754548754",
+      "email": "sho.poonamallee@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vellavedu",
+      "officer_name": "Thiru Iyyappan",
+      "landline_number": "9498100323",
+      "mobile_number": "9487389582",
+      "email": "sho.vellavedu@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Poonamallee",
+      "officer_name": "Tmt R.Prema",
+      "landline_number": "9498100109",
+      "mobile_number": "9498133562",
+      "email": "sho.awpspoonamallee@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mangadu",
+      "officer_name": "Thiru Jayashankar",
+      "landline_number": "9498100094",
+      "mobile_number": "9840123420",
+      "email": "sho.mangadu@tncctns.gov.in"
+    },
+    {
+      "station_name": "SRMC",
+      "officer_name": "Thiru K. Vijaya Krishna Raj",
+      "landline_number": "9498100095",
+      "mobile_number": "9025311105",
+      "email": "sho.srmc@tncctns.gov.in"
+    },
+    {
+      "station_name": "Moulivakkam",
+      "officer_name": "Thiru.P.Palani",
+      "landline_number": "8122770442",
+      "mobile_number": "9498184845",
+      "email": "sho.moulivakkam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruverkadu",
+      "officer_name": "Thiru Radhakrishnan",
+      "landline_number": "9498100091",
+      "mobile_number": "9789822026",
+      "email": "sho.thiruverkadu@tncctns.gov.in"
+    },
+    {
+      "station_name": "SRMC-AWPS",
+      "officer_name": "Tmt K.Jothilakshmi",
+      "landline_number": "9498100094",
+      "mobile_number": "9498106554",
+      "email": "-"
+    },
+    {
+      "station_name": "AWPS Redhills",
+      "officer_name": "Tmt Bharani.B",
+      "landline_number": "-",
+      "mobile_number": "9150808721",
+      "email": "awpsredhills@tncctns.gov.in"
+    },
+    {
+      "station_name": "Redhills",
+      "officer_name": "Thiru Krishnamoorthy",
+      "landline_number": null,
+      "mobile_number": "9498100238",
+      "email": "sho.redhills@tncctns.gov.in"
+    },
+    {
+      "station_name": "Minjur",
+      "officer_name": "Thiru Meenachi Sundram",
+      "landline_number": null,
+      "mobile_number": "9498100336",
+      "email": "sho.minjur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sholavaram",
+      "officer_name": "Thiru Clastin David",
+      "landline_number": "9498100340",
+      "mobile_number": "9524999910",
+      "email": "sho.sholavaram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pudur",
+      "officer_name": "Thiruvalluvar",
+      "landline_number": "9498129410",
+      "mobile_number": "-",
+      "email": "sho.pudur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ambattur",
+      "officer_name": "Thiru Dillibabu",
+      "landline_number": "9498100078",
+      "mobile_number": "9498103322",
+      "email": "sho.ambattur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ambattur Estate",
+      "officer_name": "Thiru Sadaiyandi",
+      "landline_number": null,
+      "mobile_number": "9498100079",
+      "email": "sho.ambatturestate@tncctns.gov.in"
+    },
+    {
+      "station_name": "Korattur",
+      "officer_name": "Thiru Ashok",
+      "landline_number": null,
+      "mobile_number": "9498100083",
+      "email": "sho.korattur@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Ambattur",
+      "officer_name": "Tmt Geetha",
+      "landline_number": "9498100082",
+      "mobile_number": "9498129354",
+      "email": "sho.awpsambattur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sathangadu",
+      "officer_name": "Thiru Ammer Ali Jinna",
+      "landline_number": "044-23452790",
+      "mobile_number": "9498100242",
+      "email": "sho.sathangadu@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Ennore",
+      "officer_name": "Tmt Umamageswari",
+      "landline_number": null,
+      "mobile_number": "9498100250",
+      "email": "sho.awpsennore@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ennore",
+      "officer_name": "Thiru Vijayakumar",
+      "landline_number": "044-25750237",
+      "mobile_number": "9498100239",
+      "email": "sho.ennore@tncctns.gov.in"
+    },
+    {
+      "station_name": "MM Colony",
+      "officer_name": "Thiru Muthuramalingam",
+      "landline_number": "9498100236",
+      "mobile_number": "-",
+      "email": "sho.milkcolony@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manali",
+      "officer_name": "Thiru Radhakrishnan",
+      "landline_number": "9498100240",
+      "mobile_number": "-",
+      "email": "sho.manali@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manali New Town",
+      "officer_name": "Thiru Arumugam",
+      "landline_number": "9498100241",
+      "mobile_number": "-",
+      "email": "sho.manalinewtown@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirupalaivanam",
+      "officer_name": "Thiru SaiGanesh",
+      "landline_number": "9498100331",
+      "mobile_number": "-",
+      "email": "sho.thirupalaivanam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ponneri",
+      "officer_name": "Thiru Tamilarasan",
+      "landline_number": "9498100337",
+      "mobile_number": "-",
+      "email": "sho.ponneri@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kattur",
+      "officer_name": "Vacant",
+      "landline_number": "9498100346",
+      "mobile_number": "-",
+      "email": "sho.kattur@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Ponneri",
+      "officer_name": "Vacant",
+      "landline_number": null,
+      "mobile_number": "9498105185",
+      "email": "awpsponneri@tncctns.gov.in"
+    },
+    {
+      "station_name": "Avadi - TIW",
+      "officer_name": "Thiru R.Anbuselvi",
+      "landline_number": "-",
+      "mobile_number": "9498149672",
+      "email": "sho.tiw_avadi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Redhills - TIW",
+      "officer_name": "Thiru Ramesh",
+      "landline_number": "7200766762",
+      "mobile_number": "-",
+      "email": "sho.tiw_redhills@tncctns.gov.in"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "district_name": "Tirunelveli",
+  "sp": [
+    {
+      "officer_name": "Thiru. Vishweshbalasubramaniamshastri IPS",
+      "district_name": "Tirunelveli",
+      "contact_number": "04622902820",
+      "email": "sp.tin@tncctns.gov.in"
+    }
+  ],
+  "adsp": [
+    {
+      "officer_name": "Thiru Balasubramanian .M",
+      "district_name": "Tirunelveli-HQ",
+      "contact_number": "9498102497 0462-250411",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru Shanmugam",
+      "district_name": "Tirunelveli- CWC",
+      "contact_number": "9486033329",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru Murugan P.P",
+      "district_name": "Tirunelveli-CCW",
+      "contact_number": "9442168970",
+      "email": null
+    }
+  ],
+  "dsp": [
+    {
+      "officer_name": "Thiru Ganesh Kumar",
+      "district_name": "Ambasamudram",
+      "contact_number": "9442720990 04634-250400,9498101744",
+      "email": "dsp.ambasamudram@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Aswath Anto Arockiaraj. A",
+      "district_name": "Cheranmahadevi",
+      "contact_number": "9566611336 04634-261111,9498101745",
+      "email": "dsp.cheranmahadevi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Sathishkannan",
+      "district_name": "Nanguneri",
+      "contact_number": "9047676753,  04635-250287,9498101742",
+      "email": "dsp.nanguneri@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Venkatesh",
+      "district_name": "Valliyur",
+      "contact_number": "9787047987 04637-220283,9498101743",
+      "email": "dsp.valliyoor@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Biswajit Panda",
+      "district_name": "Thirunelveli Rural",
+      "contact_number": "8368341294, 0462-2301700,9498101741",
+      "email": "dsp.tirunelvelirural@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Vijayakumar",
+      "district_name": "DCB",
+      "contact_number": "9842923500",
+      "email": "dsp.dcbtin@tncctns.gov.in"
+    }
+  ],
+  "cop": [],
+  "acop": [],
+  "jcp": [],
+  "dcp": [],
+  "adc": [],
+  "acp": [],
+  "police_stations": [
+    {
+      "station_name": "Seethaparpanallur",
+      "officer_name": "TmtSabitha",
+      "landline_number": "0462-2487122,9498101798",
+      "mobile_number": "9498195120",
+      "email": "sho.seethaparpannellur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manur",
+      "officer_name": "Thiru Balakrishnan",
+      "landline_number": "0462-2485122,9498101754",
+      "mobile_number": "9446182288",
+      "email": "sho.manur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Tirunelveli Taluk",
+      "officer_name": "Thiru Ponraj",
+      "landline_number": "0462-2541520,9498101751",
+      "mobile_number": "8870527058",
+      "email": "sho.tirunelvelitaluk@tncctns.gov.in"
+    },
+    {
+      "station_name": "Gangaikondan",
+      "officer_name": "Thiru Albin Bright Mary",
+      "landline_number": "0462-2486144,9498101753",
+      "mobile_number": "9488323426",
+      "email": "sho.gangaikondan@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thalaiyuthu",
+      "officer_name": "Thiru Sankaranarayanan",
+      "landline_number": "04634-274558,9498101779",
+      "mobile_number": "8144883549",
+      "email": "sho.thalaiyuthu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Devarkulam",
+      "officer_name": "Tmt.Mariselvi",
+      "landline_number": "04636-286135,9498101752",
+      "mobile_number": "9498192688",
+      "email": "sho.devarkulam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Seevalaperi",
+      "officer_name": "Thiru Subash A",
+      "landline_number": "0462-2483116,9498101755",
+      "mobile_number": "9498197627",
+      "email": "sho.seevalaperi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sivanthipatti",
+      "officer_name": "Thiru Robert T",
+      "landline_number": "0462-2432700,9498101756",
+      "mobile_number": "9498193007",
+      "email": "sho.sivanthipatti@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Tirunelveli",
+      "officer_name": "Tmt Rajakumari",
+      "landline_number": "0462-2568034,9498101813",
+      "mobile_number": "9486252189",
+      "email": "sho.awpsthirunelveli@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pappakudi",
+      "officer_name": "Thiru Robinson",
+      "landline_number": "04634-274550,9498101793",
+      "mobile_number": "9498196028",
+      "email": "sho.pappagudy@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ambasamudram",
+      "officer_name": "Thiru Shunmugavel",
+      "landline_number": "04634-250346,9498101771",
+      "mobile_number": "9940841789",
+      "email": "sho.ambasamudram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kallidaikurichi",
+      "officer_name": "Tmt Philomina",
+      "landline_number": "04634-250404,9498101774",
+      "mobile_number": "9498106454",
+      "email": "sho.kallidaikurichi@tncctns.gov.in"
+    },
+    {
+      "station_name": "VK Puram",
+      "officer_name": "Thiru Brabhubaskeran",
+      "landline_number": "04634-220330,9498101776",
+      "mobile_number": "9498193114",
+      "email": "sho.vkpuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manimuthar",
+      "officer_name": "Tmt Gowrimanoheri",
+      "landline_number": "04634-252561, 9498101775",
+      "mobile_number": "9486556936",
+      "email": "sho.manimuthar@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manjolai",
+      "officer_name": "Thiru Subramanian",
+      "landline_number": "04634-252561",
+      "mobile_number": "9952841182",
+      "email": "sho.manjolai@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Ambasamudram",
+      "officer_name": "Tmt Vanitha S",
+      "landline_number": "04634-255380,9498101813",
+      "mobile_number": "9486252189",
+      "email": "sho.awpsambasamudram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Cheranmahadevi",
+      "officer_name": "Thiru Padmanabapillai",
+      "landline_number": "04634-260125,9498101778",
+      "mobile_number": "9444176622",
+      "email": "sho.cheranmahadevi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mukkudal",
+      "officer_name": "Tmt.Guruvuthai",
+      "landline_number": "04634-274558,9498101779",
+      "mobile_number": "9498184089",
+      "email": "sho.mukkudal@tncctns.gov.in"
+    },
+    {
+      "station_name": "Munneerpallam",
+      "officer_name": "Thiru Sabababathy",
+      "landline_number": "0462-2352405,9498101780",
+      "mobile_number": "8300017100",
+      "email": "sho.munneerpallam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pathamadai",
+      "officer_name": "Tmt.Savitheri",
+      "landline_number": "04634-260165,9498101781",
+      "mobile_number": "9487331082",
+      "email": "sho.pathamadai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Suthamalli",
+      "officer_name": "Thiru Sundhar Moorthy",
+      "landline_number": "0462-2342625,9498101782",
+      "mobile_number": "9884209108",
+      "email": "sho.suthamalli@tncctns.gov.in"
+    },
+    {
+      "station_name": "Veeravanallur",
+      "officer_name": "Thiru Sivasubramanian",
+      "landline_number": "04634-287240,9498101777",
+      "mobile_number": "9626623759",
+      "email": "sho.veeravanallur@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Cheranmahadevi",
+      "officer_name": "Tmt. Vijayalakshmi",
+      "landline_number": "04634 212 285",
+      "mobile_number": "9489525388",
+      "email": null
+    },
+    {
+      "station_name": "Melaselval",
+      "officer_name": "Thiru  Ragurajan",
+      "landline_number": null,
+      "mobile_number": "6385164546 9498194141",
+      "email": "sho.melaseval@tncctns.gov.in"
+    },
+    {
+      "station_name": "Valliyoor",
+      "officer_name": "Thiru Sureshkumar",
+      "landline_number": "04637-220256,9498101764",
+      "mobile_number": "9751398833",
+      "email": "sho.valliyoor@tncctns.gov.in"
+    },
+    {
+      "station_name": "Koodankulam",
+      "officer_name": "Vacant",
+      "landline_number": "04637-250150",
+      "mobile_number": null,
+      "email": "sho.koodankulam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pazhavoor",
+      "officer_name": "Thiru Suresh Kumar",
+      "landline_number": "04637-288527,9498101768",
+      "mobile_number": "9498194260",
+      "email": "sho.pazhavoor@tncctns.gov.in"
+    },
+    {
+      "station_name": "Radhapuram",
+      "officer_name": "Thiru Marimuthu",
+      "landline_number": "04637-254124,9498101769",
+      "mobile_number": "9498197433",
+      "email": "sho.radhapuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Valliyoor",
+      "officer_name": "Tmt Shanthi",
+      "landline_number": "04637-222755,9498101815",
+      "mobile_number": "9498197297",
+      "email": "sho.awpsvalliyoor@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thisayanvilai",
+      "officer_name": "Thiru Ezhil Suresh Singh",
+      "landline_number": "04637-271366,9498101770",
+      "mobile_number": "9442801507",
+      "email": "sho.thisayanvilai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Panagudi",
+      "officer_name": "Thiru Jayapandian",
+      "landline_number": "04637-245144,9498101767",
+      "mobile_number": "8300056431",
+      "email": "sho.panagudi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Uvari",
+      "officer_name": "Tmt Prema",
+      "landline_number": "04637-277126,9498101766",
+      "mobile_number": "9498194727",
+      "email": "sho.ovari@tncctns.gov.in"
+    },
+    {
+      "station_name": "Moolakaraipatty",
+      "officer_name": "Thiru Madasamy",
+      "landline_number": "04635-258156,9498101760",
+      "mobile_number": "9498195038",
+      "email": "sho.moolaikaraipatti@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirukkurungudi",
+      "officer_name": "Thiru Kabirdasan",
+      "landline_number": "04635-265036,9498101762",
+      "mobile_number": "9944909448",
+      "email": "sho.thirukkurangudi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kalakkad",
+      "officer_name": "Thiru Mohana Ayyar",
+      "landline_number": "04635-260530,9498101759",
+      "mobile_number": "8300770076",
+      "email": "sho.kalakadu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Nanguneri",
+      "officer_name": "Thiru A.T Rajaram",
+      "landline_number": "04635-250112,9498101757",
+      "mobile_number": "9442499100",
+      "email": "sho.nanguneri@tncctns.gov.in"
+    },
+    {
+      "station_name": "Eruvadi",
+      "officer_name": "Thiru. Muthukumaran",
+      "landline_number": "04637-240134,9498101758",
+      "mobile_number": "9498197100",
+      "email": "sho.eruvadi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vijayanarayanam",
+      "officer_name": "Tmt Prema D",
+      "landline_number": "04635-255148,9498101763",
+      "mobile_number": "9498197390",
+      "email": "sho.vijayanarayanam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Moondradaippu",
+      "officer_name": "Tmt Subhulakshmi",
+      "landline_number": "04635-257117,9498101761",
+      "mobile_number": "9498195263",
+      "email": "sho.moontradaippu@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Nanguneri",
+      "officer_name": "Tmt Sutha",
+      "landline_number": "04635-250761,9498101814",
+      "mobile_number": "9842888938",
+      "email": "sho.awpsnanguneri@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW - Tirunelveli",
+      "officer_name": "Thiru Murugan T",
+      "landline_number": "0462-2917662,9498101765",
+      "mobile_number": "9498193056",
+      "email": "sho.pewalangulam@cctns.gov.in"
+    },
+    {
+      "station_name": "DCB",
+      "officer_name": "Tmt Annalakshmi",
+      "landline_number": "0462-2568032",
+      "mobile_number": "9498195409",
+      "email": "sho.dcb_tirunelveli@tncctns.gov.in"
+    }
+  ]
+}

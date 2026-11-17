@@ -1,0 +1,315 @@
+{
+  "district_name": "Tiruvallur",
+  "sp": [
+    {
+      "officer_name": "Thiru V.V. Sai Praneeth IPS",
+      "district_name": "Tiruvallur",
+      "contact_number": "044-27666555",
+      "email": "sp.tvlr@tncctns.gov.in"
+    }
+  ],
+  "adsp": [
+    {
+      "officer_name": "Thiru.P.P .Julius caesar",
+      "district_name": "Tiruvallur",
+      "contact_number": "044 -29595201, 94981-04691",
+      "email": "adsp.tvlr@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Vacant",
+      "district_name": "Tiruvallur",
+      "contact_number": "044-27896025",
+      "email": null
+    }
+  ],
+  "dsp": [
+    {
+      "officer_name": "Thiru. Karthikeyan",
+      "district_name": "Tiruvallur",
+      "contact_number": "9443848324 044-27660293,9498100312",
+      "email": "dsp.thiruvallur@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Vinoth",
+      "district_name": "Uthukottai",
+      "contact_number": "044-27630082, 9498210147",
+      "email": "dsp.uthukottai@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Shubham Dhiman R.L",
+      "district_name": "Thiruthani",
+      "contact_number": "9816882866 04427886699",
+      "email": "dsp.thiruthani@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Vacant",
+      "district_name": "Ponneri",
+      "contact_number": "044-27974013,",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru.Sasidhar",
+      "district_name": "Gummidipoondi",
+      "contact_number": "9486075775, 044-27928766",
+      "email": "dsp.gummidipoondi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Vacant",
+      "district_name": "PEW",
+      "contact_number": "044-276912625",
+      "email": "dsp.pewthiruvallur@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Anumandhan",
+      "district_name": "DCB",
+      "contact_number": "044-27664901",
+      "email": "dcbwinggmail.com@cctns.gov.in"
+    }
+  ],
+  "cop": [],
+  "acop": [],
+  "jcp": [],
+  "dcp": [],
+  "adc": [],
+  "acp": [],
+  "police_stations": [
+    {
+      "station_name": "PEW-RK Pet",
+      "officer_name": "Thiru. Siva Subramanian",
+      "landline_number": "04427663422",
+      "mobile_number": "9942904717",
+      "email": "sho.pew_rkpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW-Ponneri",
+      "officer_name": "Vacant",
+      "landline_number": "044-27974130",
+      "mobile_number": null,
+      "email": null
+    },
+    {
+      "station_name": "PEW-Thiruvallur",
+      "officer_name": "Thiru.Ayyanar K",
+      "landline_number": "044-27660101",
+      "mobile_number": "9498101788",
+      "email": "sho.pew_thiruvallur@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW-Periyapalayam",
+      "officer_name": "Thiru. Pathipan",
+      "landline_number": "044-27927501",
+      "mobile_number": "7845825872",
+      "email": "sho.pew_periyapalayam@tncctns.gov.in"
+    },
+    {
+      "station_name": "DCB",
+      "officer_name": "Thiru.Annadurai A",
+      "landline_number": "044-27664901",
+      "mobile_number": "9498146080",
+      "email": "sho.dcb_tiruvallur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruvallur Town",
+      "officer_name": "Thiru. Thamotharan S",
+      "landline_number": "044-27660247,9498100317",
+      "mobile_number": "9498146333",
+      "email": "sho.thiruvallurtown@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruvallur Taluk",
+      "officer_name": "Thiru Vijayakumar",
+      "landline_number": "044-27660350,9498100318",
+      "mobile_number": "9786921933",
+      "email": "sho.thiruvallurtaluk@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kadambathur",
+      "officer_name": "Thiru  Balasubramani",
+      "landline_number": "044-27651400,9498100319",
+      "mobile_number": "9498146797",
+      "email": "sho.kadambathur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mappedu",
+      "officer_name": "Thiru Vinayagam J",
+      "landline_number": "044-27655788,9498100322",
+      "mobile_number": "9444848962",
+      "email": "sho.mappedu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manavala Nagar",
+      "officer_name": "Thiru Jayavel",
+      "landline_number": "044-27640091,9498100321",
+      "mobile_number": "9498127135",
+      "email": "sho.manavalanagar@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pullarambakkam",
+      "officer_name": "Thiru Muthu",
+      "landline_number": "4427600606, 9498100000",
+      "mobile_number": "9498155724",
+      "email": "sho.pullarambakkam@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Thiruvallur",
+      "officer_name": "Tmt Lakshmi G",
+      "landline_number": "044-27663422,9498100347",
+      "mobile_number": "9498127300",
+      "email": "sho.awpsthiruvallur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Uthukottai",
+      "officer_name": "Thiru Devaraj",
+      "landline_number": "044-27630256",
+      "mobile_number": "7904639011",
+      "email": "sho.uthukottai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Periyapalayam",
+      "officer_name": "Thiru. Balakrishnan",
+      "landline_number": "044-27927226,9498100326",
+      "mobile_number": "9551398998",
+      "email": "sho.periyapalayam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Arani",
+      "officer_name": "Thiru Saravanan",
+      "landline_number": "044-27927233,9498100327",
+      "mobile_number": "9498108245",
+      "email": "sho.arani@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vengal",
+      "officer_name": "Thiru Suresh Babu J C",
+      "landline_number": "044-27626736,9498100329",
+      "mobile_number": "9944464298",
+      "email": "sho.vengal@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pennalurpet",
+      "officer_name": "Thiru Kumaran T",
+      "landline_number": "044-27635626,9498100328",
+      "mobile_number": "8939074777",
+      "email": "sho.pennalurpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Uthukottai",
+      "officer_name": "Tmt.Tamilselvi S",
+      "landline_number": "044-27630500,9498100348",
+      "mobile_number": "9498147812",
+      "email": "sho.awpsuthukottai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruthani",
+      "officer_name": "Thiru Sivakumar",
+      "landline_number": "044-27885221,9498100332",
+      "mobile_number": "9443778464",
+      "email": "sho.thiruthani@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruvalangadu",
+      "officer_name": "Thiru Suresh",
+      "landline_number": "044-27872278,9498100333",
+      "mobile_number": "9498153050",
+      "email": "sho.thiruvalangadu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kanakamma Chatram",
+      "officer_name": "Tmt Karthikeyan A",
+      "landline_number": "044-27874242,9498100324",
+      "mobile_number": "9445820016",
+      "email": "sho.kanakammachatram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pallipattu",
+      "officer_name": "Thiru Siva",
+      "landline_number": "044-27651400,9498100335",
+      "mobile_number": "9092222267",
+      "email": "sho.pallipattu@tncctns.gov.in"
+    },
+    {
+      "station_name": "RK Pet",
+      "officer_name": "Thiru. Seethapathi P",
+      "landline_number": "044-27845260,9498100334",
+      "mobile_number": "7010574144",
+      "email": "sho.rkpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pothatturpet",
+      "officer_name": "Tmt Rakkikumari",
+      "landline_number": "044-27849262,9498100336",
+      "mobile_number": "9498155992",
+      "email": "sho.pothatturpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Thiruthani",
+      "officer_name": "Tmt Kala",
+      "landline_number": "044-27885281,9498100350",
+      "mobile_number": "9791299075",
+      "email": "sho.awpsthiruthani@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ponneri",
+      "officer_name": "Vacant",
+      "landline_number": null,
+      "mobile_number": null,
+      "email": "sho.ponneri@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirupalaivanam",
+      "officer_name": "Vacant",
+      "landline_number": null,
+      "mobile_number": null,
+      "email": "sho.thirupalaivanam@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Ponneri",
+      "officer_name": "Tmt Priyadhashni",
+      "landline_number": null,
+      "mobile_number": "9445463494",
+      "email": "sho.awpsponneri@tncctns.gov.in"
+    },
+    {
+      "station_name": "Arambakkam",
+      "officer_name": "Thiru Veeramani K",
+      "landline_number": "044-27948235,9498100343",
+      "mobile_number": "9842444002",
+      "email": "sho.arambakkam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kavarapettai",
+      "officer_name": "Thiru Franklin Udro Wilson",
+      "landline_number": "044-27925461,9498100344",
+      "mobile_number": "9498174418",
+      "email": "sho.kavaraipettai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pathirvedu",
+      "officer_name": "Thiru. Venkatesan",
+      "landline_number": "044-27945238,9498100345",
+      "mobile_number": "9444322281",
+      "email": "sho.pathirvedu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sipcot",
+      "officer_name": "Thiru Sathiskumar",
+      "landline_number": "044-27922861,9498100342",
+      "mobile_number": "9498103386",
+      "email": "sho.sipcottvlr@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Gummidipoondi",
+      "officer_name": "Tmt Subbulakshmi",
+      "landline_number": "044-27928900,9498100351",
+      "mobile_number": "8098661494",
+      "email": "sho.awpsgummdipoondi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Gummudipoondi",
+      "officer_name": "Thiru Balamurugan V",
+      "landline_number": "044-27929252,9498100341",
+      "mobile_number": "9962015171",
+      "email": "sho.gummidipoondi@tncctns.gov.in"
+    }
+  ]
+}

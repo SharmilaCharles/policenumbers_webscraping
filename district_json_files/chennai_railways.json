@@ -1,0 +1,207 @@
+{
+  "district_name": "Chennai Railways",
+  "sp": [
+    {
+      "officer_name": "Thiru P.Rajan., IPS",
+      "district_name": "GRP Chennai",
+      "contact_number": "044-28364338",
+      "email": "sp.cnirly@tncctns.gov.in"
+    }
+  ],
+  "adsp": [],
+  "dsp": [
+    {
+      "officer_name": "Tmt.Kaveena",
+      "district_name": "Chennai Egmore",
+      "contact_number": "7305018276",
+      "email": "dsp.chennaiegmorerly@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru.A . Sivakumar",
+      "district_name": "Chennai Central",
+      "contact_number": "7845758184",
+      "email": "dsp.chennaicentralrly@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru K Babu",
+      "district_name": "Coimbatore",
+      "contact_number": "9498104354 0422-2300535",
+      "email": "dsp.chennaicoimbatorerly@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru .R.Jeyaram",
+      "district_name": "Salem",
+      "contact_number": "9498175744",
+      "email": "dsp.cnislmrly@tncctns.gov.in"
+    }
+  ],
+  "cop": [],
+  "acop": [],
+  "jcp": [],
+  "dcp": [],
+  "adc": [],
+  "acp": [],
+  "police_stations": [
+    {
+      "station_name": "Chennai Central",
+      "officer_name": "Thiru .Govindaraju",
+      "landline_number": "9498101957",
+      "mobile_number": "9943688066",
+      "email": "sho.chennaicentralrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Korrukkupettai",
+      "officer_name": "Tmt.Premila",
+      "landline_number": "044-25951114",
+      "mobile_number": "9790908396",
+      "email": "sho.korukkupetrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Royapuram",
+      "officer_name": "Thiru Rajeshkumar",
+      "landline_number": "044-25904722",
+      "mobile_number": "9498129645",
+      "email": "sho.royapuramrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruvallur",
+      "officer_name": "Tmt.Ramuthai",
+      "landline_number": "044-27660234,9498101959",
+      "mobile_number": "9498127079",
+      "email": "sho.tiruvallurps@tnccnts.gov.in"
+    },
+    {
+      "station_name": "Arakkonam",
+      "officer_name": "Tmt.Kavitha",
+      "landline_number": "04177-224638,9498101960",
+      "mobile_number": "9884088005",
+      "email": "sho.arakonamrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Perambur",
+      "officer_name": "Tmt.Rajalakshmi",
+      "landline_number": "044-25512428,94981-80939",
+      "mobile_number": "9840310050",
+      "email": "sho.peramburrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Avadi",
+      "officer_name": "Thiru Sundararajan",
+      "landline_number": "044-26555788",
+      "mobile_number": "9498126905",
+      "email": "sho.avadirps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Egmore",
+      "officer_name": "Thiru Rajakumar",
+      "landline_number": "9498101954",
+      "mobile_number": "9498132672",
+      "email": "sho.chennaiegmorerps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Chengalpattu",
+      "officer_name": "Thiru R.V. Vairavan",
+      "landline_number": "044-27422529",
+      "mobile_number": "9498106744",
+      "email": "sho.chengalpatturps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Tambaram",
+      "officer_name": "Tmt.Jayanthi",
+      "landline_number": "044-22267839",
+      "mobile_number": "8072878763",
+      "email": "sho.tambaramrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mambalam",
+      "officer_name": "Thiru Baskaran",
+      "landline_number": "9498101958",
+      "mobile_number": "6382458212",
+      "email": "sho.mambalamrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruvanmiyur",
+      "officer_name": "Tmt Kumutha",
+      "landline_number": "9498180941",
+      "mobile_number": "9444317526",
+      "email": "sho.tiruvanmiyurrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Udhagamandalam",
+      "officer_name": "Thiru M.Rajendran",
+      "landline_number": "0423-2442238",
+      "mobile_number": "9498127122",
+      "email": "sho.ootyrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Tiruppur",
+      "officer_name": "Thiru Rajendran",
+      "landline_number": "0421-2200800",
+      "mobile_number": "9976544222",
+      "email": "sho.tiruppurrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Erode",
+      "officer_name": "Thiru Krishnan",
+      "landline_number": "0424-2255177,9498101965",
+      "mobile_number": "9498103373",
+      "email": "sho.eroderps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Coimbatore",
+      "officer_name": "Tmt G.S Priya Shaai Sree",
+      "landline_number": "0422-2300043,9498101967",
+      "mobile_number": "9360099866",
+      "email": "sho.coimbatorerps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mettupalayam",
+      "officer_name": "Thiru Manokaran",
+      "landline_number": "04254-222925",
+      "mobile_number": "9443030167",
+      "email": "sho.mettupalayamrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Podhanur",
+      "officer_name": "Tmt A Ruvanthika",
+      "landline_number": "9498180937",
+      "mobile_number": "9486294580",
+      "email": "sho.podhanurrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Jolarpet",
+      "officer_name": "Thiru Sivasenthil kumar",
+      "landline_number": "0417-9241223,9498101962",
+      "mobile_number": "9443178270",
+      "email": "sho.jolarpetrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Dharmapuri",
+      "officer_name": "Thiru M.Ramesh",
+      "landline_number": "04342-232985,9498101964",
+      "mobile_number": "9498108061",
+      "email": "sho.dharmapurirps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Katpadi",
+      "officer_name": "Tmt.Chitra",
+      "landline_number": "0416-2242008,9498101961",
+      "mobile_number": "9498104779",
+      "email": "sho.katpadirps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Salem",
+      "officer_name": "Tmt.Thilagavathy",
+      "landline_number": "0427-2447404,9498101963",
+      "mobile_number": "9498110680",
+      "email": "sho.salemrps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Hosur",
+      "officer_name": "Thiru.Murali",
+      "landline_number": "0417-9241223,9498101962",
+      "mobile_number": "9498104534",
+      "email": "rpshosur@tncctns.gov.in"
+    }
+  ]
+}

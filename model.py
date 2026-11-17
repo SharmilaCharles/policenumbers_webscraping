@@ -2,6 +2,7 @@ from pydantic import BaseModel, Field
 
 class DistrictOfficer(BaseModel):
     officer_name: str = Field(description="Name of the officer (Handle 'Vacant' if no name is provided)")
+    district_name: str | None = Field(default=None, description="Name of the District or City")
     contact_number: str | None = Field(default=None, description="Contact number (mobile or landline) of the officer")
     email: str | None = Field(default=None, description="Official email address")
 

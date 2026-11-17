@@ -1,0 +1,247 @@
+{
+  "district_name": "Kallakurichi",
+  "sp": [
+    {
+      "officer_name": "Tmt. I.Shahnaz IPS",
+      "district_name": "Kallakurichi",
+      "contact_number": "04151 - 221313",
+      "email": "sp.kallakurichi@tncctns.gov.in"
+    }
+  ],
+  "adsp": [
+    {
+      "officer_name": "Thiru T.Saravanan",
+      "district_name": "Kallakurichi-HQ",
+      "contact_number": "9498178866",
+      "email": "adsp.hqr_kallakuruchi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Vacant",
+      "district_name": "Kallakurichi",
+      "contact_number": null,
+      "email": null
+    },
+    {
+      "officer_name": "Vacant",
+      "district_name": "Kallakurichi-CWC",
+      "contact_number": null,
+      "email": "adsp.cwckallakuruchi@tncctns.gov.in"
+    }
+  ],
+  "dsp": [
+    {
+      "officer_name": "Thiru Parthiban",
+      "district_name": "Thirukoilur",
+      "contact_number": "9626121985 9498100515",
+      "email": "dsp.tirukoilur@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Kalaiyarasan M",
+      "district_name": "Kallakurichi",
+      "contact_number": "8300013836, 04151-220023,9498100534",
+      "email": "dsp.kallakurichi@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru P.Asokan",
+      "district_name": "Ulundurpet",
+      "contact_number": "9840075542 9498100543",
+      "email": "dsp.ulundurpet@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru G Manikandan",
+      "district_name": "PEW",
+      "contact_number": "04151-220260, 9498157799",
+      "email": "dsp.pewkallakurichi@tncctns.gov.in"
+    }
+  ],
+  "cop": [],
+  "acop": [],
+  "jcp": [],
+  "dcp": [],
+  "adc": [],
+  "acp": [],
+  "police_stations": [
+    {
+      "station_name": "Chinnasalem",
+      "officer_name": "Thiru Joseph Selvaraj A",
+      "landline_number": "9498100539",
+      "mobile_number": "9498108845",
+      "email": "sho.chinnasalem@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kachirapalaiyam",
+      "officer_name": "Thiru R Anantharasu",
+      "landline_number": "9498100538",
+      "mobile_number": "9498152148",
+      "email": "sho.kachirapalayam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kallakurichi",
+      "officer_name": "Thiru Selvanayagam S",
+      "landline_number": "9498100536",
+      "mobile_number": "9498153008",
+      "email": "sho.kallakurichi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kallakurichi AWPS",
+      "officer_name": "Tmt Bhuvaneswari P",
+      "landline_number": "9498100542",
+      "mobile_number": "9498151737",
+      "email": "sho.awpskallakurichi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kallakurichi PEW",
+      "officer_name": "Tmt Tamilarasi C",
+      "landline_number": "04151-220260",
+      "mobile_number": "9498167897",
+      "email": "sho.pew_kallakuruchi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kariyalur",
+      "officer_name": "Thiru Solomonraja G",
+      "landline_number": "9498100541",
+      "mobile_number": "9498105092",
+      "email": "sho.kariyalur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Keezhkuppam",
+      "officer_name": "Thiru Vijayakumar R",
+      "landline_number": "9498100540",
+      "mobile_number": "9498145055",
+      "email": "sho.keezhkuppam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiyagadurgam",
+      "officer_name": "Thiru Manicka Raja P",
+      "landline_number": "9498100535",
+      "mobile_number": "9498145022",
+      "email": "sho.thiyagadurgam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Varanjaram",
+      "officer_name": "Tmt J Kalaiyarasi",
+      "landline_number": "9498100537",
+      "mobile_number": "9498182903",
+      "email": "sho.varanjaram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Edaikkal",
+      "officer_name": "Thiru Sundarapandiyan K",
+      "landline_number": "9498100547",
+      "mobile_number": "8300016664",
+      "email": "sho.edakkal@tncctns.gov.in"
+    },
+    {
+      "station_name": "Elavanasoorkottai",
+      "officer_name": "Tmt Saraswathi A",
+      "landline_number": "9498100548",
+      "mobile_number": "9498152087",
+      "email": "sho.elavanasurkottai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirunavalur",
+      "officer_name": "Thiru Moorthi",
+      "landline_number": "9498100545",
+      "mobile_number": "9443536328",
+      "email": "sho.tirunavalur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ulundurpet",
+      "officer_name": "Thiru Ananthan K",
+      "landline_number": "9498100546",
+      "mobile_number": "9498144905",
+      "email": "sho.ulundurpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ulundurpet AWPS",
+      "officer_name": "Tmt Sumathi P",
+      "landline_number": "9498100549",
+      "mobile_number": "9498152347",
+      "email": "ins.awpsulundurpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ulundurpet PEW",
+      "officer_name": "Thiru Vivekanand",
+      "landline_number": "04149-221331",
+      "mobile_number": "9498153464",
+      "email": "sho.pew_ulundurpettai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kalamaruthur",
+      "officer_name": "Thiru Settu",
+      "landline_number": "9787371191",
+      "mobile_number": "9345583589",
+      "email": "sho.kalamaruthur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manalurpet",
+      "officer_name": "Thiru Ashokan J",
+      "landline_number": "9498100524",
+      "mobile_number": "9498141154",
+      "email": "sho.manalurpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirupalapanthal",
+      "officer_name": "Thiru D Balasubramaniam",
+      "landline_number": "9498100525",
+      "mobile_number": "9498153469",
+      "email": "sho.thirupalapandal@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirukoilur PEW",
+      "officer_name": "Tmt Arivazhagi J",
+      "landline_number": "9500119978",
+      "mobile_number": "9498152047",
+      "email": "sho.pew_thirukoilur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pagandai Kootusalai",
+      "officer_name": "Thiru Prabhagaran T",
+      "landline_number": "9498100520",
+      "mobile_number": "9566351212",
+      "email": "sho.pagandairoad@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sankarapuram",
+      "officer_name": "Thiru Balamurali",
+      "landline_number": "9498100517",
+      "mobile_number": "9498155590",
+      "email": "sho.sankarapuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vadaponparappi",
+      "officer_name": "Thiru Ajithlumar",
+      "landline_number": "9498100519",
+      "mobile_number": "9789175369",
+      "email": "sho.vadaponparappi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Moongilthuraipattu",
+      "officer_name": "Tmt Ambiga",
+      "landline_number": "9498100523",
+      "mobile_number": "8667021249",
+      "email": "sho.moongilthuraipattu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirukoilur",
+      "officer_name": "Thiru Anbazhagan M",
+      "landline_number": "9498100516",
+      "mobile_number": "9498152289",
+      "email": "sho.tirukoilur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirukoilur AWPS",
+      "officer_name": "Tmt Tamilselvi",
+      "landline_number": "9498100526",
+      "mobile_number": "9498106413",
+      "email": "sho.awpstirukoilur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Rishivandiyam",
+      "officer_name": "Thiru Sivamani K",
+      "landline_number": "9498100518",
+      "mobile_number": "9840952703",
+      "email": "sho.rishivandiyam@tncctns.gov.in"
+    }
+  ]
+}

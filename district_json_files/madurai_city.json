@@ -1,0 +1,391 @@
+{
+  "district_name": "Madurai City",
+  "sp": [],
+  "adsp": [],
+  "dsp": [],
+  "cop": [
+    {
+      "officer_name": "Thiru S. Rajendran IPS",
+      "district_name": "Madurai City",
+      "contact_number": "0452-2533005,0452-2350777",
+      "email": "cop.mducity@tncctns.gov.in"
+    }
+  ],
+  "acop": [],
+  "jcp": [],
+  "dcp": [
+    {
+      "officer_name": "Thiru A.G. Inigo Thivyan",
+      "district_name": "South, Madurai City",
+      "contact_number": "9445444012 0452-2343387",
+      "email": "dc.lomducity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru E. Karthik IPS",
+      "district_name": "North, Madurai City",
+      "contact_number": "0452-2343233",
+      "email": "dc.crmducity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tmt M.P. Divya",
+      "district_name": "Headquarter, Madurai City",
+      "contact_number": "0452-2344455",
+      "email": "dc.hqmducity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Tmt S. Vanitha",
+      "district_name": "Traffic, Madurai City",
+      "contact_number": "0452-2335565",
+      "email": "dc.trmducity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Prabakaran",
+      "district_name": "Madurai City",
+      "contact_number": "8300010099 0452-2343387",
+      "email": "dc.armducity@tncctns.gov.in"
+    }
+  ],
+  "adc": [],
+  "acp": [
+    {
+      "officer_name": "Vacant",
+      "district_name": "Madurai Town",
+      "contact_number": "0452-2330072",
+      "email": "ac.mdutownlo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru.S. Palanisamy",
+      "district_name": "Thilagar Thidal",
+      "contact_number": "80723-85601, 0452-2323787",
+      "email": "ac.thilagarthidallo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru M Selvakumar",
+      "district_name": "Thallakulam",
+      "contact_number": "79045-94242, 0452-2538895",
+      "email": "ac.thallakulamlo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Ashish Puniya, IPS",
+      "district_name": "Anna Nagar",
+      "contact_number": "96362-64891, 0452-2580590",
+      "email": "ac.annanagarlo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru V.Jeganathan",
+      "district_name": "Thirupparankundram",
+      "contact_number": "0452-2487758",
+      "email": "acp.thirupparankundram@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru S.Velmurugan.",
+      "district_name": "Temple",
+      "contact_number": "99445 06869,0452-2330072",
+      "email": "ac.mdutownlo@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Selvi. A.Chandraleka",
+      "district_name": "South Gate",
+      "contact_number": "72001-93408",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru.P.Ashokan",
+      "district_name": "Thideer Nagar",
+      "contact_number": "94981-31882",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru Senthilkumar",
+      "district_name": "Avaniyapuram",
+      "contact_number": "94981-86002",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru Ravichandran",
+      "district_name": "Sellur",
+      "contact_number": "94434-67557",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru R Senthikumar",
+      "district_name": "Highcourt",
+      "contact_number": "97900-08810",
+      "email": null
+    },
+    {
+      "officer_name": "Thiru Ramakrishnan",
+      "district_name": "Anti Dowry Cell",
+      "contact_number": "83000-70283",
+      "email": null
+    }
+  ],
+  "police_stations": [
+    {
+      "station_name": "Karimedu",
+      "officer_name": "Thiru Mohamed Idiris",
+      "landline_number": "0452-2362211",
+      "mobile_number": "9842422566",
+      "email": "sho.karimedu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thilagar Thidal/Town North",
+      "officer_name": "Thiru Jothibasu",
+      "landline_number": "0452-2910558",
+      "mobile_number": "9498105279",
+      "email": "sho.thilagarthidal@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mathichayam",
+      "officer_name": "Tmt.Anuradha",
+      "landline_number": "0452-2533905",
+      "mobile_number": "9487424124",
+      "email": "sho.mathichiyam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thallakulam",
+      "officer_name": "Thiru Azhagumuthu",
+      "landline_number": "0452-2538015",
+      "mobile_number": "99431-55752",
+      "email": "sho.thallakulam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Govt.Rajaji Hospitals",
+      "officer_name": "Thiru Sasikumar",
+      "landline_number": "0452-2524862",
+      "mobile_number": "94981-75794",
+      "email": "sho.govtrajajihospital@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruppalai",
+      "officer_name": "Tmt.Sangeetha",
+      "landline_number": "0452-2903900",
+      "mobile_number": "9498105122",
+      "email": "sho.thiruppalai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mattuthavani",
+      "officer_name": "Thiru Maruthu",
+      "landline_number": "04522585100",
+      "mobile_number": "8754671437",
+      "email": "sho.mattuthavani@tncctns.gov.in"
+    },
+    {
+      "station_name": "Pudur",
+      "officer_name": "Thiru Thiyagarajan",
+      "landline_number": "0452-2561568",
+      "mobile_number": "9498187303",
+      "email": "sho.mdupudur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Anna Nagar",
+      "officer_name": "Thiru Selvakumar",
+      "landline_number": "0452-2533247",
+      "mobile_number": "9498188980",
+      "email": "sho.annanagar@tncctns.gov.in"
+    },
+    {
+      "station_name": "TIW-I",
+      "officer_name": "Thiru Sasikumar",
+      "landline_number": "—",
+      "mobile_number": "9498175794",
+      "email": "sho.tiw1mduc@tncctns.gov.in"
+    },
+    {
+      "station_name": "TIW-II",
+      "officer_name": "Thiru Sasikumar",
+      "landline_number": "0452-2538832",
+      "mobile_number": "9498175794",
+      "email": "sho.tiw2mduc@tncctns.gov.in"
+    },
+    {
+      "station_name": "TIW-III",
+      "officer_name": "Thiru Vadivukarasi",
+      "landline_number": null,
+      "mobile_number": "975152779",
+      "email": "sho.tiw3mduc@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW-Madurai City",
+      "officer_name": "Tmt.Mariyammal",
+      "landline_number": "0452-2334770",
+      "mobile_number": "8300060600",
+      "email": "sho.pewmduc@tncctns.gov.in"
+    },
+    {
+      "station_name": "CCB",
+      "officer_name": "Tmt Veerammal",
+      "landline_number": "0452-2521242",
+      "mobile_number": "9498108050",
+      "email": "sho.ccbmduc@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirunagar",
+      "officer_name": "Thiru Karthikeyan",
+      "landline_number": "0452-2487783",
+      "mobile_number": "9843366220",
+      "email": "sho.thirunagar@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirupparangundram Temple",
+      "officer_name": "Tmt.Chitrakala",
+      "landline_number": "0452-2487736",
+      "mobile_number": "9498189951",
+      "email": "sho.thirupparankundramtemple@tncctns"
+    },
+    {
+      "station_name": "Thirupparankundram",
+      "officer_name": "Thiru .Manikandan",
+      "landline_number": "0425- 2487736",
+      "mobile_number": "8300011020",
+      "email": "sho.thirupparankundram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vilakhuthoon/ Madurai Town Central",
+      "officer_name": "Thiru .Senthilkumaran",
+      "landline_number": "0452-2322059",
+      "mobile_number": "9498189951",
+      "email": "sho.vilakkuthoon@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sri.Meenakshi Amman Temple.",
+      "officer_name": "Thiru Chezhiyan",
+      "landline_number": "0452-2914007",
+      "mobile_number": "9443929120",
+      "email": "sho.meenakshitemple@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vilakhuthoon/ Madurai Town Central",
+      "officer_name": "Thiru Senthilkumaran",
+      "landline_number": "0452-2322059",
+      "mobile_number": "9498189951",
+      "email": "sho.vilakkuthoon@tncctns.gov.in"
+    },
+    {
+      "station_name": "Theppakulam/Town West",
+      "officer_name": "Thiru Vithunkumar",
+      "landline_number": "04522312577",
+      "mobile_number": "9498105553",
+      "email": "sho.theppakulamtownwest@tncctns.gov.in"
+    },
+    {
+      "station_name": "South Gate/ Town South",
+      "officer_name": "Thiru Kottaichamy",
+      "landline_number": "0452-2643242",
+      "mobile_number": "9498179248",
+      "email": "sho.southgate@tncctns.gov.in"
+    },
+    {
+      "station_name": "Jaihindpuram",
+      "officer_name": "Thiru Boominathan",
+      "landline_number": "0452-2671871",
+      "mobile_number": "8300000541",
+      "email": "sho.jaihindpuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Keeraithurai",
+      "officer_name": "Thiru Athilingam Bose",
+      "landline_number": "0452-2670298",
+      "mobile_number": "96777-51823",
+      "email": "sho.keeraithurai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Chinthamani",
+      "officer_name": "Thiru Baskaran",
+      "landline_number": "0452 2456451",
+      "mobile_number": "79049-52979",
+      "email": null
+    },
+    {
+      "station_name": "Avaniyapuram",
+      "officer_name": "Thiru Thiagapriyan K",
+      "landline_number": "0452-2671168",
+      "mobile_number": "94981-43128",
+      "email": "sho.avaniyapuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Subramaniyapuram",
+      "officer_name": "Thiru Selvakumar",
+      "landline_number": "0452-2372154",
+      "mobile_number": "94981-88980",
+      "email": "sho.subramaniapuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "SS Colony",
+      "officer_name": "Thiru .Mathuraiveeran",
+      "landline_number": "0452 2302253",
+      "mobile_number": "9498158006",
+      "email": "sho.sscolony@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thideer Nagar",
+      "officer_name": "Thiru Parthipan",
+      "landline_number": "0452-2336665",
+      "mobile_number": "9498101375",
+      "email": "sho.thideernagar@tncctns.gov.in"
+    },
+    {
+      "station_name": "Madakulam",
+      "officer_name": "Thiru M.Kottaisamy",
+      "landline_number": "0452 - 4448423",
+      "mobile_number": "6381207537",
+      "email": null
+    },
+    {
+      "station_name": "AWPS-Madurai Town",
+      "officer_name": "Tmt.Vimala",
+      "landline_number": "0452-2911031",
+      "mobile_number": "9498180190",
+      "email": "sho.awpsmdutown@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-T.P. Kundram",
+      "officer_name": "Tmt Rajeswari",
+      "landline_number": "0452-2487725",
+      "mobile_number": "9443870955",
+      "email": "sho.awpsthirupparankundram@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Thallakulam",
+      "officer_name": "Tmt.Hemamala",
+      "landline_number": "0452-2538893",
+      "mobile_number": "9498187396",
+      "email": "sho.awpsthallakulam@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Thilagar Thidal",
+      "officer_name": "Tmt Meena",
+      "landline_number": "0452-2338300",
+      "mobile_number": "9498101388",
+      "email": "sho.awpsthilagarthidal@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Annanagar",
+      "officer_name": "Tmt. Vidya",
+      "landline_number": "0452 - 2530071",
+      "mobile_number": "7010320341",
+      "email": null
+    },
+    {
+      "station_name": "Sellur",
+      "officer_name": "Thiru M Velmurugan",
+      "landline_number": "0452-2536684",
+      "mobile_number": "98651-33229",
+      "email": "sho.sellur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Koodal Pudur",
+      "officer_name": "Thiru Mohan",
+      "landline_number": "0452-2667000",
+      "mobile_number": "9500922888",
+      "email": "sho.koodalpudur@tncctns.gov.in"
+    },
+    {
+      "station_name": "High Court",
+      "officer_name": "Thiru Saravankumar",
+      "landline_number": "0452-2433000",
+      "mobile_number": "9994422885",
+      "email": "sho.highcourtmduc@tncctns.gov.in"
+    }
+  ]
+}

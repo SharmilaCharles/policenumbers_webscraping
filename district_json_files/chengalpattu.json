@@ -1,0 +1,274 @@
+{
+  "district_name": "Chengalpattu",
+  "sp": [
+    {
+      "officer_name": "Tmt. Ayman Jamal IPS",
+      "district_name": "Chengalpattu",
+      "contact_number": "044-27238070",
+      "email": "sp.chengalpattu@tncctns.gov.in"
+    }
+  ],
+  "adsp": [
+    {
+      "officer_name": "Vacant",
+      "district_name": "Chengalpattu",
+      "contact_number": null,
+      "email": "adsp.hqrs_chengalpattu@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru. Dinakaran",
+      "district_name": "Chengalpattu",
+      "contact_number": "6369387077",
+      "email": "adspccw.cpt@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Vacant",
+      "district_name": "Chengalpattu",
+      "contact_number": null,
+      "email": "adspcwc.cpt@tncctns.gov.in"
+    }
+  ],
+  "dsp": [
+    {
+      "officer_name": "Thiru Deepak Rajini",
+      "district_name": "Chengalpattu",
+      "contact_number": "044-27553180, 9498100264",
+      "email": "dsp.mkm@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru M.Arivazhagan",
+      "district_name": "Chengalpattu",
+      "contact_number": "044-27442100, 9962653425",
+      "email": "dsp.mamallapuram@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru. T Veerakumar",
+      "district_name": "Chengalpattu",
+      "contact_number": "044-27431424, 9498100263",
+      "email": "dsp.chengalpattu@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru S Anbalagan",
+      "district_name": "Chengalpattu",
+      "contact_number": "044-29936337, 8825900000",
+      "email": "dsp.pew_chengalpattu@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru P.Raja",
+      "district_name": "Chengalpattu",
+      "contact_number": "9498106043",
+      "email": "dsp.dcbcpt@tncctns.gov.in"
+    }
+  ],
+  "cop": [],
+  "acop": [],
+  "jcp": [],
+  "dcp": [],
+  "adc": [],
+  "acp": [],
+  "police_stations": [
+    {
+      "station_name": "Chengalpattu Town",
+      "officer_name": "Thiru. Kartickganesh",
+      "landline_number": "044-27424423",
+      "mobile_number": "9498100277",
+      "email": "sho.chengalpettown@tncctns.gov.in"
+    },
+    {
+      "station_name": "Chengalpattu Taluk",
+      "officer_name": "Thiru Krishnamoorthy",
+      "landline_number": "044-27424325",
+      "mobile_number": "9498100278",
+      "email": "sho.chengalapattutaluk@tncctns.gov.in"
+    },
+    {
+      "station_name": "Palur",
+      "officer_name": "Thiru L Sathish",
+      "landline_number": "044-27437100",
+      "mobile_number": "9498100295",
+      "email": "sho.palur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Padalam",
+      "officer_name": "Thiru C.Murali",
+      "landline_number": "044-27565234",
+      "mobile_number": "9498128538",
+      "email": "sho.padalam@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Chengalpattu",
+      "officer_name": "Tmt.Sathiyavani",
+      "landline_number": "044-27432101",
+      "mobile_number": "9444139569",
+      "email": "sho.awpschengalpattu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Maduranthakam",
+      "officer_name": "Thiru. S.Elumalai",
+      "landline_number": "044-27552495",
+      "mobile_number": "9498100281",
+      "email": "sho.maduranthagam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Melmaruvathur",
+      "officer_name": "Thiru. Surendhiran",
+      "landline_number": "044-27529241",
+      "mobile_number": "9498100267",
+      "email": "sho.melmaruvathur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Chithamur",
+      "officer_name": "Thiru Mahalingam",
+      "landline_number": "044-27544124",
+      "mobile_number": "9498100297",
+      "email": "sho.chithamur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Cheyyur",
+      "officer_name": "Thiru.Thilak",
+      "landline_number": "044-27531124",
+      "mobile_number": "9498163109",
+      "email": "sho.cheyyur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Anaicut",
+      "officer_name": "Thiru. Poongundram",
+      "landline_number": "044-27253968",
+      "mobile_number": "9047406444",
+      "email": "sho.anaicut@tncctns.gov.in"
+    },
+    {
+      "station_name": "Chunambedu",
+      "officer_name": "Thiru Jawaharkumar P",
+      "landline_number": "044-27545627",
+      "mobile_number": "9498100285",
+      "email": "sho.chunampedu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Achirapakkam",
+      "officer_name": "Thiru Dhanraji .C",
+      "landline_number": "044-27522338",
+      "mobile_number": "9498118471",
+      "email": "sho.acharapakkam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Orathy",
+      "officer_name": "Thiru.Murugan",
+      "landline_number": "044-27549938",
+      "mobile_number": "7200875912",
+      "email": "sho.orathy@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Melmaruvathur",
+      "officer_name": "Tmt. Jayalakshmi",
+      "landline_number": "044-27443331",
+      "mobile_number": "9445490570",
+      "email": "sho.awpsmelmaruvathur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mamallapuram",
+      "officer_name": "Thiru Dharamalingam",
+      "landline_number": "044-27442221",
+      "mobile_number": "9498100287",
+      "email": "sho.mamallapuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sadras",
+      "officer_name": "Thiru. Anbarasu",
+      "landline_number": "044-27481243",
+      "mobile_number": "9498154799",
+      "email": "sho.sadras@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kalpakkam",
+      "officer_name": "Thiru Shankar",
+      "landline_number": "044-27481143",
+      "mobile_number": "9498100289",
+      "email": "sho.kalpakkam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Koovathur",
+      "officer_name": "Thiru.Vimalnathan",
+      "landline_number": "044-27537728",
+      "mobile_number": "9498100290",
+      "email": "sho.koovathur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thiruporur",
+      "officer_name": "Thiru Rajangam.D",
+      "landline_number": null,
+      "mobile_number": "9498100291",
+      "email": "sho.thiruporur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Manampathy",
+      "officer_name": "Thiru.Jawagar",
+      "landline_number": "044-27436100",
+      "mobile_number": "9500339763",
+      "email": "sho.manampathy@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kayar",
+      "officer_name": "Thiru D Marudhappan",
+      "landline_number": "044-27440004",
+      "mobile_number": "9629101669",
+      "email": "sho.kayar@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Mamallapuram",
+      "officer_name": "Tmt. C.Tamilselvi",
+      "landline_number": "044-27443331",
+      "mobile_number": "9445465505",
+      "email": "sho.awpsmamallapuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirukazhukundram",
+      "officer_name": "Thiru. Suresh",
+      "landline_number": null,
+      "mobile_number": "9498132076",
+      "email": "sho.tkkundram@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW-Maduranthakam",
+      "officer_name": "Thiru. G.Tharagaeshwari",
+      "landline_number": null,
+      "mobile_number": "9498154368",
+      "email": "sho.pew_madhurandhagam@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW-Chengalpet",
+      "officer_name": "Thiru. Rajaraman",
+      "landline_number": null,
+      "mobile_number": "9498152946",
+      "email": "sho.pew_chengalpet@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW- Mamallapuram",
+      "officer_name": "Thiru.Sivaraj",
+      "landline_number": null,
+      "mobile_number": "8015400756",
+      "email": "sho.pew_mamallapuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "DCB",
+      "officer_name": "Thiru P.Raja",
+      "landline_number": null,
+      "mobile_number": "9498106043",
+      "email": "dsp.dcbcpt@tncctns.gov.in"
+    },
+    {
+      "station_name": "DCP - I",
+      "officer_name": "Vaccant",
+      "landline_number": null,
+      "mobile_number": null,
+      "email": null
+    },
+    {
+      "station_name": "DCP - II",
+      "officer_name": "Thiru R. Lakshmipathy",
+      "landline_number": null,
+      "mobile_number": "90003111237",
+      "email": null
+    }
+  ]
+}

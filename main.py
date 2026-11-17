@@ -1,39 +1,65 @@
 import re
 import os
 import time
-from google.genai.errors import ServerError
-from langchain_anthropic import ChatAnthropic
-from langchain_google_genai.chat_models import GoogleAPIError
+# from google.genai.errors import ServerError
+# from langchain_anthropic import ChatAnthropic
+# from langchain_google_genai.chat_models import GoogleAPIError
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-from model import DistrictContacts, District
+from model import DistrictOfficer, District, PoliceStation
 from playwright.sync_api import sync_playwright
 import json
 from langchain_ollama import ChatOllama
 
 
-# load_dotenv()
-# api_key = os.getenv("ANTHROPIC_API_KEY") 
-# if not api_key:
-#     raise ValueError("Missing ANTHROPIC_API_KEY in environment or .env")
+load_dotenv()
+
+OLLAMA_HOST_URL = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+OLLAMA_MODEL_NAME = os.getenv("OLLAMA_MODEL", "deepseek-v4-pro")
+OLLAMA_API_KEY_VALUE = os.getenv("OLLAMA_API_KEY")
+
+if not OLLAMA_API_KEY_VALUE:
+    raise ValueError("Missing OLLAMA_API_KEY in environment or .env")
 
 # Initialize the LLM
-# llm = ChatAnthropic(
-#     model="claude-sonnet-4-5-20250929", # Updated to correct Claude model name format
-#     api_key=api_key,
-#     temperature=0
-# )
-
+# NOTE: model names on Ollama Cloud are versioned (e.g. "deepseek-v4-pro:0813").
+# "deepseek-v4-pro" alone resolves to the latest tag, and a 404 here means the
+# client is pointing at the wrong host (localhost instead of ollama.com).
 llm = ChatOllama(
-    model="deepseek-v4-pro",
+    model=OLLAMA_MODEL_NAME,
     temperature=0,
-    # base_url="http://your-cloud-server-ip:11434" # Uncomment and update if Ollama is on a remote cloud server
+    base_url=OLLAMA_HOST_URL,
+    format="json",  # DeepSeek on Ollama Cloud ignores json-schema `format`, but honours "json"
+    client_kwargs={
+        "headers": {"Authorization": f"Bearer {OLLAMA_API_KEY_VALUE}"},
+        "timeout": 300.0,
+    },
 )
 
 
-# Bind the Pydantic schema to force JSON output
-structured_llm = llm.with_structured_output(District)
+def _invoke_structured(prompt: str) -> dict:
+    """Call the LLM in JSON mode and validate the output against the District schema."""
+    last_error: Exception | None = None
+
+    # The model can still wrap the object in a list, so try both shapes before giving up.
+    candidates = (
+        f"{prompt}\n\nReturn ONLY a single JSON object (no markdown, no code fences, no commentary).",
+        f"{prompt}\n\nReturn ONLY a JSON array containing exactly one object with this shape.",
+    )
+
+    for instruction in candidates:
+        try:
+            response = llm.invoke(instruction)
+            return District.model_validate_json(response.content).model_dump()
+        except Exception as e:  # noqa: BLE001 - retried below with a different instruction
+            last_error = e
+
+    raise RuntimeError(f"LLM returned data that did not match the District schema: {last_error}")
+
+
+# Attach the Pydantic schema so the model knows the exact JSON shape it must produce
+structured_llm = _invoke_structured
 
 def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
     prompt = f""" 
@@ -80,26 +106,32 @@ def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
             - District Name
             - Contact Number
             - Email
-    
-        Data to extract for JOINT COMMISSIONER OF POLICE - JCP:
+        
+    Data to extract for ADDITIONAL COMMISSIONER OF POLICE - COP:
             - Officer Name 
             - District Name
             - Contact Number
             - Email
     
-        Data to extract for DEPUTY COMMISSIONER OF POLICE - DCP:
+    Data to extract for JOINT COMMISSIONER OF POLICE - JCP:
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+    
+    Data to extract for DEPUTY COMMISSIONER OF POLICE - DCP:
             - Officer Name 
             - District Name
             - Contact Number
             - Email
 
-        Data to extract for ADDITIONAL DEPUTY COMMISSIONER OF POLICE - ADC:
+    Data to extract for ADDITIONAL DEPUTY COMMISSIONER OF POLICE - ADC:
             - Officer Name 
             - District Name
             - Contact Number
             - Email
 
-        Data to extract for ASSISTANT COMMISSIONER OF POLICE - ACP:
+    Data to extract for ASSISTANT COMMISSIONER OF POLICE - ACP:
             - Officer Name 
             - District Name
             - Contact Number
@@ -115,6 +147,9 @@ def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
     Keep all phone numbers and emails exactly as they appear in the raw text. Do not invent missing data.
     Return the data strictly in the requested schema.
 
+    JSON SCHEMA (keys must match exactly; use empty lists for categories not present):
+    {District.model_json_schema()}
+
     Raw Text:
     {raw_website_text}    
     """
@@ -122,8 +157,7 @@ def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
     for attempt in range(1, max_retries + 1):
         try:
             print(f"Calling LLM (Attempt {attempt}/{max_retries})...")
-            result = structured_llm.invoke(prompt)
-            return result.model_dump()
+            return structured_llm(prompt)
         except Exception as e:
             print(f"Encountered error: {e}")
             wait_time = attempt * 2

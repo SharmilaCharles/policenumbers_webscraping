@@ -1,0 +1,197 @@
+{
+  "district_name": "Tiruppur City",
+  "sp": [],
+  "adsp": [],
+  "dsp": [],
+  "cop": [
+    {
+      "officer_name": "Tmt. S. Rajeswari IPS",
+      "district_name": "Tiruppur City",
+      "contact_number": "0421-2245000",
+      "email": "cop.tprcity@tncctns.gov.in"
+    }
+  ],
+  "acop": [],
+  "jcp": [],
+  "dcp": [
+    {
+      "officer_name": "Thiru R. Ramesh Krishnan",
+      "district_name": "North, Tiruppur City",
+      "contact_number": "0421-2200700",
+      "email": "dclo.tprcity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Akash Joshi IPS",
+      "district_name": "South, Tiruppur City",
+      "contact_number": "0421-2200500",
+      "email": "dcadmin.tprcity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru M.Rajarajan IPS",
+      "district_name": "Headquarter, Tiruppur City",
+      "contact_number": "9498111112",
+      "email": "dchqrs.tprcity@tncctns.gov.in"
+    }
+  ],
+  "adc": [],
+  "acp": [
+    {
+      "officer_name": "Thiru PH .Ganesh",
+      "district_name": "Kongu Nagar Range",
+      "contact_number": "04296-227650,9498101302",
+      "email": "acnorth.tprcity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru.P.K.JOHN",
+      "district_name": "K.V.R Nagar Range",
+      "contact_number": "9498101301 0421-2239320",
+      "email": "acsouth.tprcity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru.T.PRADEEPKUMAR",
+      "district_name": "Anupparpalayam Range",
+      "contact_number": "9498181070",
+      "email": "acanuparpalayam.tprcity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru. D. Suresh Kumar",
+      "district_name": "Nallur Range",
+      "contact_number": "9498181072",
+      "email": "acnallur.tprcity@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Vacant",
+      "district_name": "CCB",
+      "contact_number": "0421- 2244200",
+      "email": "ac.ccbtprc@tncctns.gov.in"
+    }
+  ],
+  "police_stations": [
+    {
+      "station_name": "Tiruppur North",
+      "officer_name": "Thiru.Rajinikanth",
+      "landline_number": "0421-2239380,9498101305",
+      "mobile_number": "9944147878",
+      "email": "sho.tiruppurnorth@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Kongu Nagar",
+      "officer_name": "Tmt.Gomathi",
+      "landline_number": "9498101310",
+      "mobile_number": "6382535336",
+      "email": "sho.tprawps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Anupparpalayam",
+      "officer_name": "Tmt.Vijaya",
+      "landline_number": "0421-2238580,9498101303",
+      "mobile_number": "9498175722",
+      "email": "sho.annuparapalayam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thirumuruganpoondi",
+      "officer_name": "Tmt. S.Latha",
+      "landline_number": "04296-276100,9498181165",
+      "mobile_number": "9498174156",
+      "email": "sho.muruganpoondi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Velampalayam",
+      "officer_name": "Tmt.Renugadevi P",
+      "landline_number": "0421-2255200,9498101308",
+      "mobile_number": "9498173465",
+      "email": "sho.velampalayam@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - KVR NAGAR",
+      "officer_name": "Tmt.Selvarani",
+      "landline_number": "04212-253193,9498101311",
+      "mobile_number": null,
+      "email": "sho.tprsouthawps@tncctns.gov.in"
+    },
+    {
+      "station_name": "Tiruppur Central",
+      "officer_name": "Thiru.T.Selvaraj",
+      "landline_number": "0421-2239380,9498101304",
+      "mobile_number": "9498188007",
+      "email": "sho.tiruppurcentral.tprcity@tncctns.gov.in"
+    },
+    {
+      "station_name": "Mangalam",
+      "officer_name": "Tmt.M.Sasikala",
+      "landline_number": "9498101341",
+      "mobile_number": "9498104647",
+      "email": "sho.mangalam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Nallur",
+      "officer_name": "Tmt. Prema",
+      "landline_number": "0421-2219880,9498101306",
+      "mobile_number": "9498172088",
+      "email": "sho.tiruppurrural@tncctns.gov.in"
+    },
+    {
+      "station_name": "Tiruppur South",
+      "officer_name": "Thiru Ganeshkumar",
+      "landline_number": "0421-2251189,9498101307",
+      "mobile_number": "9498141373",
+      "email": "sho.tiruppursouth@tncctns.gov.in"
+    },
+    {
+      "station_name": "Veerapandi",
+      "officer_name": "Thiru. Shagadhavan",
+      "landline_number": "9498101309",
+      "mobile_number": "9498190401",
+      "email": "sho.veerapanditprcity@tncctns.gov.in"
+    },
+    {
+      "station_name": "TIW - Tiruppur North",
+      "officer_name": "Thiru Harikrishnan.K.S",
+      "landline_number": null,
+      "mobile_number": "9498197575",
+      "email": "ins.tiwtprc@tncctns.gov.in"
+    },
+    {
+      "station_name": "Traffic - South",
+      "officer_name": "Thiru. Vengatachalam",
+      "landline_number": null,
+      "mobile_number": "9787413372",
+      "email": "ri.strafftprc@tncctns.gov.in"
+    },
+    {
+      "station_name": "CCB",
+      "officer_name": "Thiru..R.Senthil Kumar",
+      "landline_number": "0421- 2244200",
+      "mobile_number": "9498177345",
+      "email": "sho.ccb_tiruppurcity@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW - Tiruppur",
+      "officer_name": "Tmt Dheivamani",
+      "landline_number": null,
+      "mobile_number": "9498177734",
+      "email": "sho.pew_tiruppurcity@tncctns.gov.in"
+    },
+    {
+      "station_name": "Intelligence Section",
+      "officer_name": "Thiru Ganasan",
+      "landline_number": "0421-2244500,9498101300",
+      "mobile_number": "9498161656",
+      "email": "ins.istprc@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW- Tiruppur City",
+      "officer_name": "Tmt Dheivamani",
+      "landline_number": null,
+      "mobile_number": "9498177734",
+      "email": "sho.pew_tiruppurcity@tncctns.gov.in"
+    },
+    {
+      "station_name": "Traffic - North",
+      "officer_name": "Thiru. Ramesh",
+      "landline_number": null,
+      "mobile_number": "9842525200",
+      "email": "ri.ntrafftprc@tncctns.gov.in"
+    }
+  ]
+}

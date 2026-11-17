@@ -1,0 +1,193 @@
+{
+  "district_name": "Ranipet",
+  "sp": [
+    {
+      "officer_name": "Thiru P.Sibin IPS",
+      "district_name": "Ranipet",
+      "contact_number": "04172 - 290961",
+      "email": "sp.ranipet@cctns.gov.in"
+    }
+  ],
+  "adsp": [
+    {
+      "officer_name": "Thiru K.Saravanan",
+      "district_name": "Ranipet",
+      "contact_number": "9840773352",
+      "email": "adsp.hqr_ranipet@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Gunasekaran",
+      "district_name": "Ranipet",
+      "contact_number": "9443417831",
+      "email": "adsp.cwcranipet@tncctns.gov.in"
+    }
+  ],
+  "dsp": [
+    {
+      "officer_name": "Thiru Kanagaraj",
+      "district_name": "Ranipet",
+      "contact_number": "9498100358 04172-270209",
+      "email": "dsp.ranipet@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Ponnusamy",
+      "district_name": "Arakkonam",
+      "contact_number": "04177-237123,9498100359",
+      "email": "dsp.arakkonam@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru R. Kumar",
+      "district_name": "Ranipet",
+      "contact_number": "9487106024",
+      "email": "dsp.dcrbranipet@cctns.gov.in"
+    }
+  ],
+  "cop": [],
+  "acop": [],
+  "jcp": [],
+  "dcp": [],
+  "adc": [],
+  "acp": [],
+  "police_stations": [
+    {
+      "station_name": "Ranipet",
+      "officer_name": "Thiru Rajinikanth",
+      "landline_number": "9498100377",
+      "mobile_number": "8667010040",
+      "email": "sho.ranipet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sipcot",
+      "officer_name": "Tmt.Mangayarkarasi",
+      "landline_number": "9498100378",
+      "mobile_number": "8668162274",
+      "email": "sho.sipcotranipet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Arcot Town",
+      "officer_name": "Thiru Vadivelan",
+      "landline_number": "04172-233222,9498100379",
+      "mobile_number": "9498188755",
+      "email": "sho.arcottown@tncctns.gov.in"
+    },
+    {
+      "station_name": "Rathinagiri",
+      "officer_name": "Tmt Pugazh",
+      "landline_number": "04172-266360,9498100381",
+      "mobile_number": "9443487880",
+      "email": "sho.rathinagiri@tncctns.gov.in"
+    },
+    {
+      "station_name": "Arcot Taluk",
+      "officer_name": "Thiru Muralidharan",
+      "landline_number": "04172-245950,9498100380",
+      "mobile_number": "9498146292",
+      "email": "sho.arcot@tncctns.gov.in"
+    },
+    {
+      "station_name": "Walajapet",
+      "officer_name": "Thiru Sakthiganesh",
+      "landline_number": "04172-232100,9498100382",
+      "mobile_number": "9498105202",
+      "email": "sho.walajapet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thimiri",
+      "officer_name": "Thiru Vijayalakshmi",
+      "landline_number": "04172-258240,9498100383",
+      "mobile_number": "9840777909",
+      "email": "sho.timiri@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kalavai",
+      "officer_name": "Thiru Ramesh Babu",
+      "landline_number": "9498100386",
+      "mobile_number": "9498155422",
+      "email": "sho.kalavai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Valapandal",
+      "officer_name": "Tmt.Malar",
+      "landline_number": "9498100387",
+      "mobile_number": "9498149469",
+      "email": "sho.valapandal@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ranipet AWPS",
+      "officer_name": "Tmt Latha",
+      "landline_number": "04172-273990,9498100388",
+      "mobile_number": "9498148925",
+      "email": "sho.awpsranipet@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thakkolam",
+      "officer_name": "Tmt Shalini",
+      "landline_number": "9498100391",
+      "mobile_number": "9566045837",
+      "email": "sho.thakkolam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Banavaram",
+      "officer_name": "Tmt Nagendiran",
+      "landline_number": "9498100392",
+      "mobile_number": "9840979246",
+      "email": "sho.banavaram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Arakkonam AWPS",
+      "officer_name": "Tmt Nirmala",
+      "landline_number": "9498100398",
+      "mobile_number": "9445491028",
+      "email": "sho.awpsarakkonam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kondapalayam",
+      "officer_name": "Tmt Lakshmi",
+      "landline_number": "04177-262236,9498100395",
+      "mobile_number": "9443379574",
+      "email": "sho.kondapalayam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Arakkonam Town",
+      "officer_name": "Thiru Mohan Ram",
+      "landline_number": "9498100389",
+      "mobile_number": "949813109",
+      "email": "sho.arakkonamtown@tncctns.gov.in"
+    },
+    {
+      "station_name": "Nemili",
+      "officer_name": "Thiru Arumugam",
+      "landline_number": "9498100393",
+      "mobile_number": "9498106525",
+      "email": "sho.nemili@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sholinghur",
+      "officer_name": "Tmt Ramachandran",
+      "landline_number": "9498100394",
+      "mobile_number": "7904097657",
+      "email": "sho.sholinghur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kaveripakkam",
+      "officer_name": "Tmt Mahalakshmi",
+      "landline_number": "9498100396",
+      "mobile_number": "9498151255",
+      "email": "sho.kaveripakkam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Avalur",
+      "officer_name": "Tmt Vahitha Begam",
+      "landline_number": "9498100397",
+      "mobile_number": "9498149841",
+      "email": "sho.avalur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Arakkonam Taluk",
+      "officer_name": "Thiru Sivakumar",
+      "landline_number": "9498100390",
+      "mobile_number": "9498145414",
+      "email": "sho.arakkonamtaluk@tncctns.gov.in"
+    }
+  ]
+}

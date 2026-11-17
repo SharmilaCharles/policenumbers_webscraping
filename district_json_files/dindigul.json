@@ -1,0 +1,423 @@
+{
+  "district_name": "Dindigul",
+  "sp": [
+    {
+      "officer_name": "Thiru S.Jeyakumar, I.P.S.",
+      "district_name": "Dindigul",
+      "contact_number": "9952022205",
+      "email": "sp.dgl@tncctns.gov.in"
+    }
+  ],
+  "adsp": [
+    {
+      "officer_name": "Thiru Ramesh SK",
+      "district_name": "Dindigul-CWC",
+      "contact_number": "9498103421 0451-2461700",
+      "email": "adsp.cwcdindigul@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru S.Karunakaran",
+      "district_name": "Dindigul-Crime",
+      "contact_number": "9790009343",
+      "email": "adsp.crdindigul@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Deivam",
+      "district_name": "Dindigul-CCW",
+      "contact_number": "8300003135",
+      "email": "adspccwdindigul@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Public Information Officer ADSP -Hqrs",
+      "district_name": null,
+      "contact_number": "9952022205",
+      "email": "sp.dgl@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Appellate Authority SP",
+      "district_name": null,
+      "contact_number": "9952022205",
+      "email": "sp.dgl@tncctns.gov.in"
+    }
+  ],
+  "dsp": [
+    {
+      "officer_name": "Selvi.Dr.P.Manjima IPS",
+      "district_name": "Dindigul Rural",
+      "contact_number": "9498101522 - 9496544896",
+      "email": "dsp.dindigulrural@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru S. Ilanchezhiyan",
+      "district_name": "Nilakottai",
+      "contact_number": "8754848686,9498101523",
+      "email": "dsp.nilakottai@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru Karthikeyan",
+      "district_name": "Ottanchatram",
+      "contact_number": "8610145976 9498101525",
+      "email": "dsp.oddanchatram@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru.G.Devaraj",
+      "district_name": "Palani",
+      "contact_number": "9952413356, 9498101524",
+      "email": "dsp.palani@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru.B.Suresh pandian",
+      "district_name": "Vedasendur",
+      "contact_number": "9865868988, 9498101527",
+      "email": "dsp.vedasandur@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru N Karthick",
+      "district_name": "Dindigul Town",
+      "contact_number": "8072866450",
+      "email": "dsp.dindigultown@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Selvi.T.Gayathri",
+      "district_name": "Kodikkanal",
+      "contact_number": "8220609940, 9498101526",
+      "email": "dsp.kodaikanal@tncctns.gov.in"
+    },
+    {
+      "officer_name": "Thiru S. Kumaresan",
+      "district_name": "DCB",
+      "contact_number": "9498188280 04512461400",
+      "email": "dsp.dindigultown@tncctns.gov.in"
+    }
+  ],
+  "cop": [],
+  "acop": [],
+  "jcp": [],
+  "dcp": [],
+  "adc": [],
+  "acp": [],
+  "police_stations": [
+    {
+      "station_name": "Town North",
+      "officer_name": "Thiru Venkatachalapathy",
+      "landline_number": "9498101535",
+      "mobile_number": "9498187501",
+      "email": "sho.dindigultown@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Dindigul",
+      "officer_name": "Tmt.Sangeetha",
+      "landline_number": "9498101565",
+      "mobile_number": "9498105122",
+      "email": "sho.awpsdindigul@tncctns.gov.in"
+    },
+    {
+      "station_name": "Town South",
+      "officer_name": "Thiru A.Lingapandian",
+      "landline_number": "9498101536",
+      "mobile_number": "9498188303",
+      "email": "southpsdgl123@gmail.com"
+    },
+    {
+      "station_name": "Town West",
+      "officer_name": "Tmt.Meenakshi",
+      "landline_number": "9498101537",
+      "mobile_number": "9976142391",
+      "email": "sho.dindigulwest@tncctns.gov.in"
+    },
+    {
+      "station_name": "Dindigul Taluk",
+      "officer_name": "Vacant",
+      "landline_number": null,
+      "mobile_number": "9498101534",
+      "email": "sho.dindigultaluk@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ambathurai",
+      "officer_name": "Tmt M.Pandeeswari",
+      "landline_number": "9498101528",
+      "mobile_number": "9498126292",
+      "email": "sho.ambathurai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Chinnalapatti",
+      "officer_name": "Tmt S.Sathya",
+      "landline_number": "9498101533",
+      "mobile_number": "8300065082",
+      "email": "sho.chinnalapatti@tncctns.gov.in"
+    },
+    {
+      "station_name": "Dhadikombu",
+      "officer_name": "Thiru S.P.Saravanan",
+      "landline_number": "0451-2557100,9498101558",
+      "mobile_number": "9894081712",
+      "email": "sho.thadicombu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Natham",
+      "officer_name": "Thiru N.Pongunasekaran",
+      "landline_number": "9498101546",
+      "mobile_number": "8667634927",
+      "email": "sho.natham@tncctns.gov.in"
+    },
+    {
+      "station_name": "Shanarpatti",
+      "officer_name": "Thiru Prabakaran",
+      "landline_number": "0451-2550237,9498101555",
+      "mobile_number": "9498189874",
+      "email": "sho.shanarpatty@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS - Dindigul Rural",
+      "officer_name": "Tmt.P.Sathya Praba",
+      "landline_number": "8489321441",
+      "mobile_number": "8300043643",
+      "email": "sho.awpsdglrural@cctns.gov.in"
+    },
+    {
+      "station_name": "Vedasandur",
+      "officer_name": "Thiru Gneshamoorthy",
+      "landline_number": "9498101561",
+      "mobile_number": "8300002307",
+      "email": "sho.vedasandur@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Vadamadurai",
+      "officer_name": "Tmt.Buvaneshwari",
+      "landline_number": "04551-238199,9498101564",
+      "mobile_number": "9445877935",
+      "email": "sho.awpsvadamadurai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Guzilamparai",
+      "officer_name": "Thiru M.Raja",
+      "landline_number": "9498101540",
+      "mobile_number": "9443962404",
+      "email": "sho.guzhiliamparai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Koombur",
+      "officer_name": "Thiru Balakumarasamy",
+      "landline_number": "9498101545",
+      "mobile_number": "9498186168",
+      "email": "sho.koombur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vadamadurai",
+      "officer_name": "Thiru Nithi Kumar",
+      "landline_number": "9498101560",
+      "mobile_number": "9498184996",
+      "email": "sho.vadamadurai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Eriodu",
+      "officer_name": "Tmt. S.Vinotha",
+      "landline_number": "9498101539",
+      "mobile_number": "9498185990",
+      "email": "sho.eriodu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Palani Town",
+      "officer_name": "Thiru J.Thangamuniyasamy",
+      "landline_number": "9498101552",
+      "mobile_number": "9994079345",
+      "email": "sho.palanitown@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Palani",
+      "officer_name": "Tmt.Packiyam",
+      "landline_number": "9498101569",
+      "mobile_number": "9498187839",
+      "email": "sho.awpspalani@tncctns.gov.in"
+    },
+    {
+      "station_name": "Palani Adivaram",
+      "officer_name": "Tmt.P.Kavitha",
+      "landline_number": "9498101550",
+      "mobile_number": "8300009221",
+      "email": "sho.palaniadivaram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Palani Taluk",
+      "officer_name": "Thiru L.Sathyamoorthy",
+      "landline_number": "9498104019",
+      "mobile_number": "9498166897",
+      "email": "sho.palanitaluk@tncctns.gov.in"
+    },
+    {
+      "station_name": "Keeranur",
+      "officer_name": "Thiru P.Venkatachalam",
+      "landline_number": "9498101543",
+      "mobile_number": "9442104769",
+      "email": "sho.keeranur@tncctns.gov.in"
+    },
+    {
+      "station_name": "Chatrapatti",
+      "officer_name": "Thiru P.Jothimurugan",
+      "landline_number": "9498101549",
+      "mobile_number": "8300017007",
+      "email": "sho.awpspalani@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ayakudi",
+      "officer_name": "Tmt A.Rajesh",
+      "landline_number": "9498101531",
+      "mobile_number": "8300002050",
+      "email": "sho.ayakudi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Swaminathapuram",
+      "officer_name": "Tmt E.Murugeshwari",
+      "landline_number": "9498101557",
+      "mobile_number": "9994242916",
+      "email": "sho.saminathampuram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Oddanchatram",
+      "officer_name": "Thiru A.Lingapandian",
+      "landline_number": "9498101548",
+      "mobile_number": "9498188303",
+      "email": "sho.oddanchatram@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Ottanchatram",
+      "officer_name": "Tmt.Bhuvaneswari",
+      "landline_number": "9498101567",
+      "mobile_number": "9498183307",
+      "email": "sho.awpsoddanchatram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Edayakottai",
+      "officer_name": "Tmt Kalieswari",
+      "landline_number": "9498101538",
+      "mobile_number": "8300003018",
+      "email": "sho.edayakottai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ambilikkai",
+      "officer_name": "Thiru Thirumalaisamy",
+      "landline_number": "9498101529",
+      "mobile_number": "8300009787",
+      "email": "sho.ambiligai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kallimandiyam",
+      "officer_name": "Thiru B.B.Manian",
+      "landline_number": "9498101541",
+      "mobile_number": "9498188211",
+      "email": "sho.kallimandayam@tncctns.gov.in"
+    },
+    {
+      "station_name": "Sempatti",
+      "officer_name": "Thiru Saravanan",
+      "landline_number": "9498101556",
+      "mobile_number": "8300018446",
+      "email": "sho.sempatty@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kannivadi",
+      "officer_name": "Thiru P.Karthikeyan",
+      "landline_number": "9498101542",
+      "mobile_number": "9843362220",
+      "email": "sho.kannivadi@tncctns.gov.in"
+    },
+    {
+      "station_name": "Reddiyarchatram",
+      "officer_name": "Thiru Sivaramakrishnan",
+      "landline_number": "9498101554",
+      "mobile_number": "8300027573",
+      "email": "sho.reddiyarchatram@tncctns.gov.in"
+    },
+    {
+      "station_name": "Nilakottai",
+      "officer_name": "Thiru. Jeyapandian",
+      "landline_number": "9498101547",
+      "mobile_number": "9003799705",
+      "email": "sho.nilakottai@tncctns.gov.in"
+    },
+    {
+      "station_name": "Batlagundu",
+      "officer_name": "Thiru Gowthaman",
+      "landline_number": "9498101532",
+      "mobile_number": "9944510536",
+      "email": "sho.batlagundu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Viruveedu",
+      "officer_name": "Thiru Gowthaman",
+      "landline_number": "9498101563",
+      "mobile_number": "9952618595",
+      "email": "sho.viruveedu@tncctns.gov.in"
+    },
+    {
+      "station_name": "Ammayanaickanur",
+      "officer_name": "Tmt S.Sahul Hameed",
+      "landline_number": "9498101530",
+      "mobile_number": "9790450287",
+      "email": "sho.ammayanaickanur@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Nilakottai",
+      "officer_name": "Tmt.Latha",
+      "landline_number": "9498101566",
+      "mobile_number": "9498168026",
+      "email": "awpsnilakottai@gmail.com"
+    },
+    {
+      "station_name": "Pattiveeranpatti",
+      "officer_name": "Thiru Muthukumaran",
+      "landline_number": "04543-267231,9498101553",
+      "mobile_number": "9498184018",
+      "email": "sho.pattiveeranpatty@tncctns.gov.in"
+    },
+    {
+      "station_name": "Vilampatti",
+      "officer_name": "Tmt P.Saravanan",
+      "landline_number": "9498101562",
+      "mobile_number": "9940134349",
+      "email": "sho.vilampatty@tncctns.gov.in"
+    },
+    {
+      "station_name": "Kodaikkanal",
+      "officer_name": "Thiru K.Pugazhlenthi",
+      "landline_number": "9498101544",
+      "mobile_number": "9843616161",
+      "email": "sho.kodaikanal@tncctns.gov.in"
+    },
+    {
+      "station_name": "AWPS-Kodaikanal",
+      "officer_name": "Tmt.M.Sumathy",
+      "landline_number": "9498101568",
+      "mobile_number": "8300009406",
+      "email": "sho.awpskodaikanal@tncctns.gov.in"
+    },
+    {
+      "station_name": "Thandikudi",
+      "officer_name": "Tmt M.Pandiyammal",
+      "landline_number": "9498101559",
+      "mobile_number": "9498187722",
+      "email": "sho.thandikudi@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW-Palani",
+      "officer_name": "Thiru M.Arumuga Nainar",
+      "landline_number": "9344272899",
+      "mobile_number": "8300017042",
+      "email": "sho.pew_dindigul@tncctns.gov.in"
+    },
+    {
+      "station_name": "PEW-Dindigul",
+      "officer_name": "Tmt.Maya Rajalakshmi",
+      "landline_number": "9498187722",
+      "mobile_number": "8300019370",
+      "email": "sho.pew_dindigul@tncctns.gov.in"
+    },
+    {
+      "station_name": "DCB",
+      "officer_name": "Tmt Muthamilselvi",
+      "landline_number": null,
+      "mobile_number": "9498185776",
+      "email": "sho.dcb_dindigul@tncctns.gov.in"
+    }
+  ]
+}
