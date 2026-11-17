@@ -1,0 +1,300 @@
+{
+  "contacts": [
+    {
+      "unit_name": "Armed Police",
+      "officer_name": "Dr. R. Dhinakaran",
+      "designation": "ADGP",
+      "mobile_number": "044-25322233",
+      "email": "adgp.ar@tncctns.gov.in",
+      "address": "Office of the ADGP, No.10 Armed Police Lotus Garden Kilpauk, Chennai-10"
+    },
+    {
+      "unit_name": "CB CID",
+      "officer_name": "Tmt. B. Balanagadevi",
+      "designation": "DGP CB CID",
+      "mobile_number": "044-28512501",
+      "email": "dgp.cbcid@tn.gov.in",
+      "address": "NO.220, Pantheaon Road, Egmore, Chennai-8."
+    },
+    {
+      "unit_name": "Civil Defence Training / Home Guards",
+      "officer_name": "Tmt. Jeyashri",
+      "designation": "IGP",
+      "mobile_number": "044-28446455",
+      "email": "<UNKNOWN>",
+      "address": "Office of the DGP, New Building IInd floor, Post Box No.601, Dr.Radhakrishnan Salai, Mylapore, Chennai-600 004"
+    },
+    {
+      "unit_name": "Civil Supplies CID",
+      "officer_name": "Thiru G. Venkataraman",
+      "designation": "DGP",
+      "mobile_number": "044-24338878",
+      "email": "adgpcscid@tnpolice.org",
+      "address": "No.5A, Chamiers Road, Nandanam, Chennai-35"
+    },
+    {
+      "unit_name": "Coastal Security Group",
+      "officer_name": "Thiru Pravesh Kumar",
+      "designation": "IGP",
+      "mobile_number": "044-28447747",
+      "email": "adgp.csg@tncctns.gov.in",
+      "address": "Office of the DGP, New Building, Dr.Radhakrishnan Salai, Mylapore, Chennai-600 004"
+    },
+    {
+      "unit_name": "Crime",
+      "officer_name": "Thiru K. Shankar",
+      "designation": "ADGP Crime",
+      "mobile_number": "044-28511580",
+      "email": "adgptncrime@gmail.com",
+      "address": "Office of the DGP, Post Box No.601, Dr.Radhakrishnan Salai, Mylapore, Chennai-600 004."
+    },
+    {
+      "unit_name": "Crime Against Women and Children",
+      "officer_name": "Tmt Anisa Husain",
+      "designation": "ADGP",
+      "mobile_number": "044-29990880",
+      "email": "adgpcwc@tnpolice.org",
+      "address": "No.3, Dr. Natesan Road, Police Training College Campus, 2nd Floor, Ashok Nagar, Chennai- 600083."
+    },
+    {
+      "unit_name": "Cyber Crime Wing",
+      "officer_name": "Thiru Abhin Dinesh Modak",
+      "designation": "DGP",
+      "mobile_number": "044-29580300",
+      "email": "adgpccw.dgp@tn.gov.in",
+      "address": "No.3, Dr. Natesan Road, Police Training College Campus, 3 Floor, Cyber Crime Wing, Ashok Nagar, Chennai- 600083."
+    },
+    {
+      "unit_name": "DCRB",
+      "officer_name": "Thiru R. Ravichandran",
+      "designation": "DSP, Ariyalur",
+      "mobile_number": "9443467557",
+      "email": "<UNKNOWN>",
+      "address": "District Police Office, Ariyalur."
+    },
+    {
+      "unit_name": "Department of Prisons and Correctional Services",
+      "officer_name": "Dr. Sandeep Rai Rathore",
+      "designation": "DGP",
+      "mobile_number": "044-28521511",
+      "email": "dgp.prisons@tncctns.gov.in",
+      "address": "Central Prison, Puzhal, Chennai.66"
+    },
+    {
+      "unit_name": "EB Vigilance",
+      "officer_name": "Vacant",
+      "designation": "ADGP",
+      "mobile_number": "044-28520416",
+      "email": "dgp@tnebnet.org",
+      "address": "Tamil Nadu Tangedu, 144, Anna Salai, 10th Floor Chennai-2"
+    },
+    {
+      "unit_name": "Economic Offences Wing",
+      "officer_name": "Tmt. Vidya Jayant Kulkarni",
+      "designation": "ADGP",
+      "mobile_number": "044-22501307",
+      "email": "adgpeow.dgp@tn.gov.in",
+      "address": "Police Training College No.2, Natesan Salai, 2nd Floor, Ashok Nagar, Chennai."
+    },
+    {
+      "unit_name": "Fire and Rescue Services",
+      "officer_name": "Vacant",
+      "designation": "DGP",
+      "mobile_number": "044-28554156",
+      "email": "<UNKNOWN>",
+      "address": "No.17, Rukmani Lakshmipathy Salai, Egmore, Chennai-8"
+    },
+    {
+      "unit_name": "Forensic Laboratory",
+      "officer_name": "Tmt B. Maheswari",
+      "designation": "Director",
+      "mobile_number": "044-28447772, 044-28447782",
+      "email": "forensic@tn.nic.in",
+      "address": "Director, Forensic Science Laboratory Department, 30A Kamarajar Salai, Mylapore, Chennai-600 004."
+    },
+    {
+      "unit_name": "Idol Wing CID",
+      "officer_name": "Tmt D. Kalpana Nayak",
+      "designation": "ADGP",
+      "mobile_number": "044-22504310",
+      "email": "adgp.idolwing@tncctns.gov.in",
+      "address": "Police Training College No.2, Natesan Salai, Ashok Nagar, Chennai"
+    },
+    {
+      "unit_name": "Modernization",
+      "officer_name": "Thiru VelMurugan",
+      "designation": "AIG",
+      "mobile_number": "044-28440100, 7904721586",
+      "email": "aigmdu.dgp@tn.gov.in",
+      "address": "Office of the DGP, New Building, Dr.Radhakrishnan Salai, Mylapore, Chennai-600 004"
+    },
+    {
+      "unit_name": "Non Resident Indians Cell",
+      "officer_name": "Tmt K. Meena",
+      "designation": "SP Incharge",
+      "mobile_number": "044-28470025, 9498654347",
+      "email": "spnricell.dgp@tn.gov.in",
+      "address": "Director General of Police, 2nd Floor, Mylapore, Chennai - 600004."
+    },
+    {
+      "unit_name": "Officers Mess",
+      "officer_name": "Thiru. Joshi Nirmal Kumar",
+      "designation": "Addl COP Hqrs",
+      "mobile_number": "044-23452421",
+      "email": "<UNKNOWN>",
+      "address": "No7, COP Road, Egmore, Chennai."
+    },
+    {
+      "unit_name": "Operations",
+      "officer_name": "Thiru Najmul Hoda",
+      "designation": "ADGP Operations",
+      "mobile_number": "044-24343460",
+      "email": "<UNKNOWN>",
+      "address": "No.17 Board club road, R.A.Puram Chennai 28"
+    },
+    {
+      "unit_name": "Police Hospital",
+      "officer_name": "Dr. K.V Madhu Prasad",
+      "designation": "CHENNAI POLICE HOSPITAL",
+      "mobile_number": "044-23452415",
+      "email": "<UNKNOWN>",
+      "address": "Pantheon Road, Egmore, Chennai."
+    },
+    {
+      "unit_name": "Police Housing Corporation",
+      "officer_name": "Thiru Vinit Dev Wankhede",
+      "designation": "DGP / Managing Director",
+      "mobile_number": "044-28364752",
+      "email": "<UNKNOWN>",
+      "address": "No.132, E.V.R Salai, Near Kilpauk Police Station, PH ROAD, Chennai-10"
+    },
+    {
+      "unit_name": "Police Training College",
+      "officer_name": "Vacant",
+      "designation": "DGP",
+      "mobile_number": "044-24719505",
+      "email": "<UNKNOWN>",
+      "address": "Police Training Head Quarter, TNPA Campus, Oonamanchery Chennai-127"
+    },
+    {
+      "unit_name": "Prohibition Enforcement",
+      "officer_name": "Thiru K. Shankar",
+      "designation": "ADGP",
+      "mobile_number": "044-28511580",
+      "email": "<UNKNOWN>",
+      "address": "DGP Office campus, Dr.Radhakrishnan Salai, Chennai-4."
+    },
+    {
+      "unit_name": "Railways",
+      "officer_name": "Thiru K. Vannia Perumal",
+      "designation": "DGP",
+      "mobile_number": "044-28513656",
+      "email": "dgp.railways@tncctns.gov.in",
+      "address": "Old Commissioner office, 4th floor, CBCID complex, Government railways police, Egmore, Chennai-600008"
+    },
+    {
+      "unit_name": "Security Branch CID",
+      "officer_name": "Dr. G. Dharmarajan",
+      "designation": "DIG",
+      "mobile_number": "044-24363001",
+      "email": "<UNKNOWN>",
+      "address": "<UNKNOWN>"
+    },
+    {
+      "unit_name": "Social Justice and Human Rights",
+      "officer_name": "Thiru G.Karthikeyan",
+      "designation": "IGP",
+      "mobile_number": "044-28447744",
+      "email": "<UNKNOWN>",
+      "address": "Dr.Radhakrishnan Salai, Mylapore, Chennai - 600 004."
+    },
+    {
+      "unit_name": "Special Division",
+      "officer_name": "Thiru N. Silambarasan",
+      "designation": "SP",
+      "mobile_number": "044-28447736, 9498181120",
+      "email": "<UNKNOWN>",
+      "address": "Dr.Radhakrishnan Salai, Mylapore, Chennai - 600 004."
+    },
+    {
+      "unit_name": "Srilankan Refugee Special Camp",
+      "officer_name": "Thiru. Vijayendra S. Bidari",
+      "designation": "IGP Mandapam / Incharge",
+      "mobile_number": "8300015530",
+      "email": "<UNKNOWN>",
+      "address": "Special Officer, Refugees Camp Mandapam, Ramanathapuram District."
+    },
+    {
+      "unit_name": "State Crime Records Bureau",
+      "officer_name": "Tmt Dr. Sonal Chandra",
+      "designation": "IGP",
+      "mobile_number": "044-24959007",
+      "email": "ig.scrb@tncctns.gov.in",
+      "address": "No 95, Santhome High Road, Raja Annamalai Puram, Chennai-600028"
+    },
+    {
+      "unit_name": "State Human Rights Commission",
+      "officer_name": "Tmt S.Mallikha",
+      "designation": "IGP",
+      "mobile_number": "044-24951491",
+      "email": "dgp.shrs@tncctns.gov.in",
+      "address": "State Human Right Commission, Tamil Nadu, 143, P.S. Kumarasamy Raja Salai, Greenways Road, Chennai-28."
+    },
+    {
+      "unit_name": "State Transport Corporation",
+      "officer_name": "Vacant",
+      "designation": "<UNKNOWN>",
+      "mobile_number": "044-23455835",
+      "email": "<UNKNOWN>",
+      "address": "Pallavan Salai, Chennai"
+    },
+    {
+      "unit_name": "STF Camp",
+      "officer_name": "Dr. V. Varun Kumar",
+      "designation": "DIG",
+      "mobile_number": "044-24347660",
+      "email": "adgp.stf@tncctns.gov.in",
+      "address": "Special Task Force, No17, Boat club Road, Marutham complex, R.A.puram, Chennai-600028"
+    },
+    {
+      "unit_name": "Tamil Nadu Police Academy",
+      "officer_name": "Thiru Arun",
+      "designation": "ADGP",
+      "mobile_number": "044-22752222",
+      "email": "<UNKNOWN>",
+      "address": "Tamil Nadu Police Academy, Oonamanchery, Vandalur, Chennai-127."
+    },
+    {
+      "unit_name": "Tamil Nadu Uniformed Service Recruitment",
+      "officer_name": "Dr. Sandeep Mittal",
+      "designation": "DGP",
+      "mobile_number": "044-28413652",
+      "email": "dgp.tnusrb@tncctns.gov.in",
+      "address": "Panthean Road, Egmore, Chennai- 8."
+    },
+    {
+      "unit_name": "Technical Services",
+      "officer_name": "Thiru Sanjay Kumar",
+      "designation": "ADGP",
+      "mobile_number": "044-28447874",
+      "email": "adgp.tech@tncctns.gov.in",
+      "address": "Office of the DGP, Post Box No.601, Dr.Radhakrishnan Salai, Mylapore, Chennai-600 004."
+    },
+    {
+      "unit_name": "Traffic and Road Safety Cell",
+      "officer_name": "Dr. P.K. Senthil Kumari",
+      "designation": "IGP",
+      "mobile_number": "044-28442400, 9498111181, 044-28447701",
+      "email": "adgptrs.dgp@tn.gov.in",
+      "address": "Dr.Radhakrishnan Salai, Mylapore, Chennai-4."
+    },
+    {
+      "unit_name": "Vigilance and Anti-Corruption",
+      "officer_name": "Vacant",
+      "designation": "ADGP / Director",
+      "mobile_number": "044-22311049",
+      "email": "dvac@nic.in",
+      "address": "No.293, MKN Road, Alandur, Chennai - 16"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+
+# Environment Variables (CRITICAL: Do not upload API keys)
+.env
+
+# Python Cache & IDE
+__pycache__/
+.mypy_cache/
+*.pyc
+.vscode/
+
+# Playwright Debugging Screenshots
+debug_screenshot.png
+error_state.png
+
+# Scraped Raw Text Cache
+raw_district_police_data.txt
+raw_police_data.txt
+
+# Mac OS System Files
+.DS_Store

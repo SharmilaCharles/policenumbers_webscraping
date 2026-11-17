@@ -1,0 +1,382 @@
+import re
+import os
+import time
+from google.genai.errors import ServerError
+from langchain_anthropic import ChatAnthropic
+from langchain_google_genai.chat_models import GoogleAPIError
+import requests
+from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+from model import DistrictContacts, District
+from playwright.sync_api import sync_playwright
+import json
+from langchain_ollama import ChatOllama
+
+
+load_dotenv()
+api_key = os.getenv("ANTHROPIC_API_KEY") 
+if not api_key:
+    raise ValueError("Missing ANTHROPIC_API_KEY in environment or .env")
+
+# Initialize the LLM
+# llm = ChatAnthropic(
+#     model="claude-sonnet-4-5-20250929", # Updated to correct Claude model name format
+#     api_key=api_key,
+#     temperature=0
+# )
+
+llm = ChatOllama(
+    model="deepseek-v4-pro",
+    temperature=0,
+    # base_url="http://your-cloud-server-ip:11434" # Uncomment and update if Ollama is on a remote cloud server
+)
+
+
+
+# Bind the Pydantic schema to force JSON output
+structured_llm = llm.with_structured_output(District)
+
+def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
+    prompt = f""" 
+    You are an expert data extractor and fact-checker for a Tamil Nadu news portal.
+    Extract the contact details of the District Police Heads (SP, ADSP, DSP) and their respective Police Stations from the following text.
+    
+    CRITICAL OVERRIDE INSTRUCTION: 
+    The provided text may contain outdated IPS officer names. You must cross-reference and update 
+    the 'officer_name' field for the District Heads to the current active officer for 2026. If the raw text says "Vacant", keep it as "Vacant".
+    
+    Data to extract for SUPERINTENDENT OF POLICE (SP):
+    - Officer Name 
+    - Contact Number
+    - Email
+
+    Data to extract for ADDITIONAL SUPERINTENDENT OF POLICE (ADSP):
+    - Officer Name 
+    - Contact Number
+    - Email
+
+    Data to extract for DEPUTY SUPERINTENDENT OF POLICE (DSP):
+    - Officer Name 
+    - Contact Number
+    - Email
+    
+    Data to extract for each Police Station under that district:
+    - Police Station Name
+    - Officer Name
+    - Landline Number
+    - Mobile Number
+    - Email
+    
+    Keep all phone numbers and emails exactly as they appear in the raw text. Do not invent missing data.
+    Return the data strictly in the requested schema.
+
+    Raw Text:
+    {raw_website_text}    
+    """
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            print(f"Calling LLM API (Attempt {attempt}/{max_retries})...")
+            result = structured_llm.invoke(prompt)
+            return result.model_dump()
+        except Exception as e:
+            if "503" in str(e) or "UNAVAILABLE" in str(e) or "rate" in str(e).lower():
+                wait_time = attempt * 5
+                print(f"Server busy or rate limited. Retrying in {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                print(f"Encountered error: {e}")
+                raise e
+                
+    raise RuntimeError("API was unavailable after multiple retries. Please wait a minute and run again.")
+
+# The Web Scraping Function
+def fetch_and_extract():
+    url = "https://www.police.tn.gov.in/citizenportal/contact-us/dist"
+    print(f"Opening browser to interact with Angular dropdown at {url}...")
+    
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(ignore_https_errors=True)
+        page = context.new_page()
+        
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            
+            # Using a more generic ng-select locator for the district dropdown
+            # If the specific ID is known, replace 'ng-select' with '#districtId' etc.
+            dropdown_selector = "ng-select" 
+            
+            page.wait_for_selector(dropdown_selector, state="visible", timeout=60000)
+            
+            print("Page loaded. Waiting 5 seconds for Angular to fetch backend data...")
+            page.wait_for_timeout(5000) 
+            
+            all_unit_texts = []
+            
+            print("Opening district dropdown...")
+            page.locator(dropdown_selector).first.click(force=True)
+            
+            try:
+                page.wait_for_selector(".ng-option", timeout=10000)
+            except Exception:
+                print("Dropdown didn't open. Retrying click...")
+                page.locator(dropdown_selector).first.click(force=True)
+                page.wait_for_selector(".ng-option", timeout=20000)
+            
+            num_options = page.locator(".ng-option").count()
+            print(f"Found {num_options} districts.")
+            
+            for i in range(num_options):
+                if i > 0:
+                    page.locator(dropdown_selector).first.click(force=True)
+                    page.wait_for_timeout(1000)
+                
+                option = page.locator(".ng-option").nth(i)
+                district_name = option.inner_text().strip()
+                
+                print(f"[{i+1}/{num_options}] Extracting data for: {district_name}...")
+                option.click(force=True)
+                
+                # Wait for the table data to load below the dropdown
+                page.wait_for_timeout(3000)
+                
+                soup = BeautifulSoup(page.content(), 'html.parser')
+                # Optional: You can target just the data table if there's a specific class (e.g., soup.find('table'))
+                all_unit_texts.append(soup.get_text(separator=' ', strip=True))
+
+            combined_text = "\n--- DISTRICT SEPARATOR ---\n".join(all_unit_texts)
+
+        except Exception as e:
+            print(f"Playwright interaction error: {e}")
+            page.screenshot(path="error_state.png")
+            print("Saved screenshot of the error state to error_state.png")
+            combined_text = ""
+        finally:
+            browser.close()
+
+        if not combined_text.strip():
+            print("No text collected.")
+            return ""
+
+        print("All data collected.")
+        return combined_text
+
+if __name__ == "__main__":
+    cache_file = "raw_district_police_data.txt"
+
+    if os.path.exists(cache_file):
+        print(f"Found cached data in {cache_file}. Skipping Playwright scrape...")
+        with open(cache_file, "r", encoding="utf-8") as f:
+            combined_text = f.read()
+    else:
+        print("No cached data found. Running Playwright scraper...")
+        combined_text = fetch_and_extract()
+        if combined_text:
+            with open(cache_file, "w", encoding="utf-8") as f:
+                f.write(combined_text)
+
+    if combined_text:
+        print("Processing text with DeepSeek v4 Pro in chunks...")
+        
+        district_chunks = [chunk.strip() for chunk in combined_text.split("--- DISTRICT SEPARATOR ---") if chunk.strip()]
+        total_districts = len(district_chunks)
+        
+        # Create a directory to store all the individual files so they don't clutter your main folder
+        output_dir = "district_json_files"
+        os.makedirs(output_dir, exist_ok=True)
+
+        for i, chunk in enumerate(district_chunks, start=1):
+            print(f"\n[{i}/{total_districts}] Extracting structured data...")
+            try:
+                # This returns a single District dict
+                district_dict = extract_police_contacts(chunk)
+                
+                if district_dict and "district_name" in district_dict:
+                    raw_name = district_dict["district_name"]
+                    
+                    # Sanitize the district name to make it a safe valid filename 
+                    # (e.g., "CHENNAI RAILWAYS" becomes "chennai_railways")
+                    safe_name = re.sub(r'[\\/*?:"<>|]', "", raw_name).strip().replace(" ", "_").lower()
+                    filename = os.path.join(output_dir, f"{safe_name}.json")
+                    
+                    # Write immediately to its own file
+                    with open(filename, "w", encoding="utf-8") as f:
+                        json.dump(district_dict, f, indent=2, ensure_ascii=False)
+                        
+                    print(f"Successfully saved to -> {filename}")
+                else:
+                    print(f"Warning: LLM returned data without a 'district_name' for chunk {i}")
+                
+            except Exception as e:
+                print(f"Failed to extract data for chunk {i}: {e}")
+
+        print("\nAll district processing complete! Check the 'district_json_files' folder.")
+
+
+
+#  Special units downloadable code
+
+# import os
+# import time
+# from google.genai.errors import ServerError
+# from langchain_anthropic import ChatAnthropic
+# from langchain_google_genai.chat_models import GoogleAPIError
+# import requests
+# from bs4 import BeautifulSoup
+# from dotenv import load_dotenv
+# from model import SpecialUnitHead, PoliceContacts
+# # from langchain_google_genai import ChatGoogleGenerativeAI
+# from playwright.sync_api import sync_playwright
+
+# load_dotenv()
+# api_key = os.getenv("ANTHROPIC_API_KEY") or os.getenv("ANTHROPIC_API_KEY")
+# if not api_key:
+#     raise ValueError("Missing CLAUDE_API_KEY or CLAUDE_API_KEY in environment or .env")
+
+# # Initialize the Gemini LLM
+# llm = ChatAnthropic(
+#     model="claude-sonnet-4-6",
+#     api_key=api_key,
+#     temperature=0
+# )
+
+# # Bind the Pydantic schema to force JSON output
+# structured_llm = llm.with_structured_output(PoliceContacts)
+
+
+# # The Extraction Function
+# def extract_police_contacts(raw_website_text:str, max_retries: int=3):
+#     prompt=f""" 
+#     You are an expert data extractor and fact-checker for a Tamil Nadu news portal.
+#     Extract the contact details of the Special Unit heads from the following text.
+    
+#     CRITICAL OVERRIDE INSTRUCTION: 
+#     The provided text contains outdated IPS officer names. You must cross-reference and update 
+#     the 'officer_name' field to the current active officer for 2026.
+#     Keep the mobile numbers, emails, and addresses exactly as they appear in the raw text.
+#     Return the data strictly in the requested schema.
+
+    
+#     Raw Text:
+#     {raw_website_text}    
+#     """
+
+#     for attempt in range(1, max_retries + 1):
+#         try:
+#             print(f"Calling Gemini API (Attempt {attempt}/{max_retries})...")
+#             # Execute the Extraction
+#             result = structured_llm.invoke(prompt)
+#              # # Return as a standard Python dictionary ready to be sent to Django
+#             return result.model_dump()
+#         except (GoogleAPIError, ServerError, Exception) as e:
+#             if "503" in str(e) or "UNAVAILABLE" in str(e):
+#                 wait_time = attempt * 5  # Wait 5s, then 10s, then 15s
+#                 print(f"Google servers busy (503). Retrying in {wait_time}s...")
+#                 time.sleep(wait_time)
+#             else:
+#                 print(f"Encountered error: {e}")
+#                 raise e
+                
+#     raise RuntimeError("Gemini API was unavailable after multiple retries. Please wait a minute and run again.")
+
+
+
+# # The Web Scraping Function (WHERE YOUR URL GOES)
+# def fetch_and_extract():
+#     url = "https://www.police.tn.gov.in/citizenportal/contact-us/dist"
+#     print(f"Opening browser to interact with Angular dropdown at {url}...")
+    
+#     with sync_playwright() as p:
+#         browser = p.chromium.launch(headless=True)
+#         context = browser.new_context(ignore_https_errors=True)
+#         page = context.new_page()
+        
+#         try:
+#             # 1. Wait for the page, but specifically wait for the input field to exist
+#             page.goto(url, wait_until="domcontentloaded", timeout=60000)
+#             page.wait_for_selector("#specialUnit", state="visible", timeout=60000)
+            
+#             print("Page loaded. Waiting 5 seconds for Angular to fetch backend data...")
+#             page.wait_for_timeout(5000) 
+            
+#             all_unit_texts = []
+            
+#             # 2. Try to click and open the dropdown
+#             print("Opening dropdown...")
+#             page.locator("#specialUnit").click(force=True)
+            
+#             # 3. The Fallback Mechanism
+#             try:
+#                 page.wait_for_selector(".ng-option", timeout=10000)
+#             except Exception:
+#                 print("Dropdown didn't open. Retrying click...")
+#                 page.locator("#specialUnit").click(force=True)
+#                 page.wait_for_selector(".ng-option", timeout=20000)
+            
+#             num_options = page.locator(".ng-option").count()
+#             print(f"Found {num_options} special units.")
+            
+#             for i in range(num_options):
+#                 if i > 0:
+#                     page.locator("#specialUnit").click(force=True)
+#                     page.wait_for_timeout(1000)
+                
+#                 option = page.locator(".ng-option").nth(i)
+#                 unit_name = option.inner_text().strip()
+                
+#                 print(f"[{i+1}/{num_options}] Extracting data for: {unit_name}...")
+#                 option.click(force=True)
+                
+#                 page.wait_for_timeout(2000)
+                
+#                 soup = BeautifulSoup(page.content(), 'html.parser')
+#                 all_unit_texts.append(soup.get_text(separator=' ', strip=True))
+
+#             combined_text = "\n--- UNIT SEPARATOR ---\n".join(all_unit_texts)
+
+#         except Exception as e:
+#             print(f"Playwright interaction error: {e}")
+#             # 4. If it fails again, take a picture of the screen so we can see why
+#             page.screenshot(path="error_state.png")
+#             print("Saved screenshot of the error state to error_state.png")
+#             combined_text = ""
+#         finally:
+#             browser.close()
+
+#         if not combined_text.strip():
+#             print("No text collected.")
+#             return {"contacts": []}
+
+#         print("All data collected. Sending to Gemini 3.6 Flash...")
+#         # extracted_data = extract_police_contacts(combined_text)
+        
+#         print("Extraction Complete!")
+#         return combined_text
+
+
+# # --- Run the Script ---
+# if __name__ == "__main__":
+#     cache_file = "raw_police_data.txt"
+
+#     # Check if we already have the scraped text saved locally
+#     if os.path.exists(cache_file):
+#         print(f"Found cached data in {cache_file}. Skipping Playwright scrape...")
+#         with open(cache_file, "r", encoding="utf-8") as f:
+#             combined_text = f.read()
+#     else:
+#         print("No cached data found. Running Playwright scraper...")
+#         # (Inside fetch_and_extract, make sure you save combined_text to cache_file)
+#         combined_text = fetch_and_extract()
+#         if combined_text:
+#             with open(cache_file, "w", encoding="utf-8") as f:
+#                 f.write(combined_text)
+
+#     if combined_text:
+#         print("Processing text with Gemini...")
+#         final_json_data = extract_police_contacts(combined_text)
+        
+#         import json
+#         with open("police_contacts.json", "w", encoding="utf-8") as f:
+#             json.dump(final_json_data, f, indent=2, ensure_ascii=False)
+#         print("Successfully saved structured data to police_contacts.json!")
