@@ -39,33 +39,28 @@ structured_llm = llm.with_structured_output(District)
 def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
     prompt = f""" 
     You are an expert data extractor and fact-checker for a Tamil Nadu news portal.
-    Extract the contact details of the District Police Heads (SP, ADSP, DSP) and their respective Police Stations from the following text.
+    Extract the contact details of the Police Unit (District or City) from the following text.
     
     CRITICAL OVERRIDE INSTRUCTION: 
     The provided text may contain outdated IPS officer names. You must cross-reference and update 
-    the 'officer_name' field for the District Heads to the current active officer for 2026. If the raw text says "Vacant", keep it as "Vacant".
+    the 'officer_name' field for the District/City Heads to the current active officer for 2026. If the raw text says "Vacant", keep it as "Vacant".
     
-    Data to extract for SUPERINTENDENT OF POLICE (SP):
-    - Officer Name 
-    - Contact Number
-    - Email
-
-    Data to extract for ADDITIONAL SUPERINTENDENT OF POLICE (ADSP):
-    - Officer Name 
-    - Contact Number
-    - Email
-
-    Data to extract for DEPUTY SUPERINTENDENT OF POLICE (DSP):
-    - Officer Name 
-    - Contact Number
-    - Email
+    STRUCTURE RULES:
+    The text might represent a "District" or a "City". Populate ONLY the officer categories that appear in the raw text. 
+    - For Districts: Look for SP, ADSP, DSP.
+    - For Cities: Look for COP, ACOP, JCP, DCP, ADC, ACP.
     
-    Data to extract for each Police Station under that district:
-    - Police Station Name
-    - Officer Name
-    - Landline Number
-    - Mobile Number
-    - Email
+    Data to extract for EACH Officer type found:
+    - officer_name
+    - contact_number
+    - email
+    
+    Data to extract for each Police Station under this unit:
+    - station_name (Strictly use this key, do NOT use 'police_station_name')
+    - officer_name
+    - landline_number
+    - mobile_number
+    - email
     
     Keep all phone numbers and emails exactly as they appear in the raw text. Do not invent missing data.
     Return the data strictly in the requested schema.
@@ -76,19 +71,16 @@ def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
 
     for attempt in range(1, max_retries + 1):
         try:
-            print(f"Calling LLM API (Attempt {attempt}/{max_retries})...")
+            print(f"Calling LLM (Attempt {attempt}/{max_retries})...")
             result = structured_llm.invoke(prompt)
             return result.model_dump()
         except Exception as e:
-            if "503" in str(e) or "UNAVAILABLE" in str(e) or "rate" in str(e).lower():
-                wait_time = attempt * 5
-                print(f"Server busy or rate limited. Retrying in {wait_time}s...")
-                time.sleep(wait_time)
-            else:
-                print(f"Encountered error: {e}")
-                raise e
+            print(f"Encountered error: {e}")
+            wait_time = attempt * 2
+            print(f"Retrying in {wait_time}s...")
+            time.sleep(wait_time)
                 
-    raise RuntimeError("API was unavailable after multiple retries. Please wait a minute and run again.")
+    raise RuntimeError("LLM failed to generate valid structured data after multiple retries.")
 
 # The Web Scraping Function
 def fetch_and_extract():
