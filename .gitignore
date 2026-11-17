@@ -4,6 +4,8 @@ venv/
 # Environment Variables (CRITICAL: Do not upload API keys)
 .env
 
+district_json_files/
+
 # Python Cache & IDE
 __pycache__/
 .mypy_cache/
