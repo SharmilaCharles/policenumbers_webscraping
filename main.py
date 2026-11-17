@@ -13,10 +13,10 @@ import json
 from langchain_ollama import ChatOllama
 
 
-load_dotenv()
-api_key = os.getenv("ANTHROPIC_API_KEY") 
-if not api_key:
-    raise ValueError("Missing ANTHROPIC_API_KEY in environment or .env")
+# load_dotenv()
+# api_key = os.getenv("ANTHROPIC_API_KEY") 
+# if not api_key:
+#     raise ValueError("Missing ANTHROPIC_API_KEY in environment or .env")
 
 # Initialize the LLM
 # llm = ChatAnthropic(
@@ -30,7 +30,6 @@ llm = ChatOllama(
     temperature=0,
     # base_url="http://your-cloud-server-ip:11434" # Uncomment and update if Ollama is on a remote cloud server
 )
-
 
 
 # Bind the Pydantic schema to force JSON output
@@ -51,16 +50,67 @@ def extract_police_contacts(raw_website_text: str, max_retries: int = 3):
     - For Cities: Look for COP, ACOP, JCP, DCP, ADC, ACP.
     
     Data to extract for EACH Officer type found:
-    - officer_name
-    - contact_number
-    - email
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+    
+
+    Data to extract for SUPERINTENDENT OF POLICE (SP):
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+
+    Data to extract for ADDITIONAL SUPERINTENDENT OF POLICE (ADSP):
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+
+    Data to extract for DEPUTY SUPERINTENDENT OF POLICE (DSP):
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+
+    
+    Data to extract for COMMISSIONER OF POLICE - COP:
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+    
+        Data to extract for JOINT COMMISSIONER OF POLICE - JCP:
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+    
+        Data to extract for DEPUTY COMMISSIONER OF POLICE - DCP:
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+
+        Data to extract for ADDITIONAL DEPUTY COMMISSIONER OF POLICE - ADC:
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
+
+        Data to extract for ASSISTANT COMMISSIONER OF POLICE - ACP:
+            - Officer Name 
+            - District Name
+            - Contact Number
+            - Email
     
     Data to extract for each Police Station under this unit:
-    - station_name (Strictly use this key, do NOT use 'police_station_name')
-    - officer_name
-    - landline_number
-    - mobile_number
-    - email
+        - station_name (Strictly use this key, do NOT use 'police_station_name')
+        - officer_name
+        - landline_number
+        - mobile_number
+        - email
     
     Keep all phone numbers and emails exactly as they appear in the raw text. Do not invent missing data.
     Return the data strictly in the requested schema.
